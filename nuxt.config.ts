@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   /*
   ** Customize the base url
   */
-  appp: {
+  app: {
     baseURL: '/iisc-bengaluru/', //this is whatever the project is named
   }/** END BLOCK **/,
   target: 'static'
