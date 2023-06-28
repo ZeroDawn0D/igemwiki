@@ -18,8 +18,8 @@ export default defineNuxtConfig({
   /*
   ** Customize the base url
   */
-  router: {
-    base: '/iisc-bengaluru/' //this is whatever the project is named
+  appp: {
+    baseURL: '/iisc-bengaluru/', //this is whatever the project is named
   }/** END BLOCK **/,
   target: 'static'
 })
