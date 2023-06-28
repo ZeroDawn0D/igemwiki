@@ -11,7 +11,7 @@ pages:
   script:
     - npm run generate
     - rm -rf public
-    - mkdir public && cp -rf .output/public/* public
+    - mkdir public && cp -a .output/public/. public
   artifacts:
     paths:
       - public
