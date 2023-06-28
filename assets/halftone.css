@@ -1,0 +1,34 @@
+.halftone-wrapper{
+  background-image: linear-gradient(#3e347e, #9e80ff);
+}
+.halftone{
+  --dotSize: 0.7rem;
+  --bgSize: 1rem;
+  --bgPosition: calc(var(--bgSize) / 2);
+  position: relative;
+  --stop1:  0.1rem;
+  --stop2: 1rem;
+  mix-blend-mode: screen;
+
+  background: white;
+  filter: contrast(50);
+}
+
+
+.halftone::after{
+  height: inherit;
+  content:  '';
+  position: absolute;
+  inset: 0;
+
+  background-image: radial-gradient(
+      circle at center,
+      black var(--stop1),
+      transparent var(--stop2)
+    );
+  background-size: var(--bgSize) var(--bgSize);
+  background-position: 0 0, var(--bgPosition) var(--bgPosition);
+
+  mask-image: linear-gradient( 340deg, rgb(0 0 0), rgb(0 0 0 / 0.3));
+
+}
