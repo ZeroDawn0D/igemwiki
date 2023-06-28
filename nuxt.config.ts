@@ -21,6 +21,6 @@ export default defineNuxtConfig({
   ** Customize the base url
   */
   router: {
-    base: '/personal-nuxtjs/' //this is whatever the project is named
+    base: '/iisc-bengaluru/' //this is whatever the project is named
   }/** END BLOCK **/
 })
