@@ -1,26 +1,17 @@
 image: node
 
-stages:
-  - build
-  - deploy
-
-build:
-  stage: build
-  script:
-    - npm install
-    - npm run generate
-
-pages:
-  stage: deploy
-  script:
-    - rm -rf public
-    - mkdir public && cp -rf dist/* public
-  artifacts:
-    paths:
-      - public
+before_script:
+  - npm install
 
 cache:
   paths:
-    - node_modules
-    - dist
+    - node_modules/
 
+pages:
+  script:
+    - npm run generate
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
