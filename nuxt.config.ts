@@ -13,14 +13,11 @@ export default defineNuxtConfig({
   /** ADD THIS BLOCK **/  /*
    ** Customize the generated output folder
    */
-  generate: {
-    dir: 'public'
-  },
-  
   /*
   ** Customize the base url
   */
   router: {
     base: '/iisc-bengaluru/' //this is whatever the project is named
-  }/** END BLOCK **/
+  }/** END BLOCK **/,
+  target: 'static'
 })
