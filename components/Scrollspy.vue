@@ -26,7 +26,7 @@ export default {
   },
   methods: {
     setClass: function (id, isScrolled) {
-      //console.log(`.class-${id}`)
+      console.log(`.class-${id}`)
         const a = document.querySelector(`.class-${id}`).classList
         //console.log(a)
         if (isScrolled) {
@@ -38,7 +38,7 @@ export default {
   },
   mounted() {
     this.observer = new IntersectionObserver(entries => {
-      console.log(entries)
+      //console.log(entries)
       entries.forEach(entry => {
         const id = entry.target.getAttribute("id");
         if (entry.isIntersecting) {
@@ -47,14 +47,30 @@ export default {
           }
           this.setClass(this.currentlyActiveSection, false)
           
-          if (document.querySelector(`.class-${id}`).hasAttribute("parent")) {
-            this.currentlyActiveSection = document.querySelector(`.class-${id}`).getAttribute("parent");
+          /*if (document.querySelector(`.class-${id}`).hasAttribute("parent")) {
+            idParent = id.replace(/[0-9]/g, '');
+
+            this.currentlyActiveSection = idParent
             this.currentlyActiveSubsection = id;
           } else {
             this.currentlyActiveSection = id;
             this.currentlyActiveSubsection = "";
-          } 
+          }
+          */
+          let idParent = id.replace(/[0-9]/g, '');
+          if(idParent==id){
+            this.currentlyActiveSection = id
+            this.currentlyActiveSubsection = ""
+
+          }else{
+            this.currentlyActiveSection = idParent
+            this.currentlyActiveSubsection = id
+          }
         }
+
+        console.log("active section: " + this.currentlyActiveSection)
+
+        console.log("active subsection: " + this.currentlyActiveSubsection)
         if (this.currentlyActiveSubsection != "") {
             this.setClass(this.currentlyActiveSubsection, true)
         }
