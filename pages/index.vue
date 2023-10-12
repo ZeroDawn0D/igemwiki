@@ -1,21 +1,21 @@
 <template>
   <div class = "test overflow-hidden relative -top-8">
     <video playsinline muted autoplay>
-      <source src="landing.mp4" type="video/mp4">
+      <source src="/landing.mp4" type="video/mp4">
     </video>
   </div>
   
   <div class = "w-screen align-centre relative left-2/4 -translate-x-2/4 bg-gradient-to-b from-white to-violet-950">
   
     <div class = "grid w-2/4 gap-4 grid-cols-2 grid-rows-5  relative left-2/4 -translate-x-2/4">
-      <img src  ="p1.png" class = "border-black border-4">
-      <img src  ="p2.png" class = "border-black border-4">
-      <img src  ="p3.png" class = "border-black border-4">
-      <img src  ="p4.png" class = "border-black border-4">
-      <img src  ="p5.png" class = "border-black border-4">
-      <img src  ="p6.png" class = "border-black border-4">
-      <img src  ="p8.png" class = "border-black border-4">
-      <img src  ="p9.png" class = "border-black border-4">
+      <img src  ="/p1.png" class = "border-black border-4">
+      <img src  ="/p2.png" class = "border-black border-4">
+      <img src  ="/p3.png" class = "border-black border-4">
+      <img src  ="/p4.png" class = "border-black border-4">
+      <img src  ="/p5.png" class = "border-black border-4">
+      <img src  ="/p6.png" class = "border-black border-4">
+      <img src  ="/p8.png" class = "border-black border-4">
+      <img src  ="/p9.png" class = "border-black border-4">
     </div>
 
     <div class = "text-violet-950 font-bold text-8xl max-md:text-7xl text-transparent text-center title-text">
@@ -170,19 +170,19 @@
   }
 
   .affect1{
-    background-image: url("women.png");
+    background-image: url("/women.png");
     background-size: 100% 100%;
   }
   .affect2{
-    background-image: url("world.png");
+    background-image: url("/world.png");
     background-size: 100% 100%;
   }
   .affect3{
-    background-image: url("india.png");
+    background-image: url("/india.png");
     background-size: 100% 100%;
   }
   .affect4{
-    background-image: url("womanpain.png");
+    background-image: url("/womanpain.png");
     background-size: 100% 100%;
   }
 
@@ -194,7 +194,7 @@
   grid-template-columns: 50% 50%;
 }
 .surgery{
-  background-image: url("surgery.png");
+  background-image: url("/surgery.png");
   background-size: 100% 100%;
 
 }
