@@ -195,6 +195,9 @@ watch(awards, async(newAward, oldAward) =>{
 		          <MenuItem v-slot="{ active }">
 		            <NuxtLink to="/safety" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Safety</NuxtLink>
 		          </MenuItem>
+		          <MenuItem v-slot="{ active }">
+		            		<NuxtLink to="/entrepreneurship" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Entrepreneurship</NuxtLink>
+		          		</MenuItem>
 		        </div>
 		      </MenuItems>
 		  </Menu>
@@ -229,9 +232,7 @@ watch(awards, async(newAward, oldAward) =>{
 		          		<MenuItem v-slot="{ active }">
 		            		<NuxtLink to="/education" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Education</NuxtLink>
 		          		</MenuItem>
-		          		<MenuItem v-slot="{ active }">
-		            		<NuxtLink to="/entrepreneurship" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Entrepreneurship</NuxtLink>
-		          		</MenuItem>
+		          		
 		        	</div>
 		      	</MenuItems>
 		  </Menu>
