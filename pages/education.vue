@@ -119,7 +119,10 @@ Hence, we valued education very highly in our project, with efforts directed tow
           <h2>
             India is a developing country, and the general public is often ignorant about the developments of modern science. However, recent successes in pharmaceutical and space research in the country has increased the enthusiasm of people towards science. This was also reflected in our survey where we asked the people about the importance of scientific research in society. Respondents gave an average importance of 3.62 in a scale of 5. 
 
-[Chart] 
+
+            <figure class="grid grid-cols-1 w-3/4 relative relative left-2/4 -translate-x-2/4 my-8">
+  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/form1d.png">
+</figure>
 
 However, knowledge about synthetic biology was less, as mentioned above. We also saw lower values at the school level, probably because of the preference towards engineering and medicine. Hence, our efforts were directed towards the 2 goals: Inform the public about synthetic biology and raise awareness among the young students about science.  
           </h2>
@@ -137,7 +140,7 @@ Hence we prepared a detailed recommendation, and met the secretaries of educatio
  <figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4 " src="https://static.igem.wiki/teams/4829/wiki/awards/education/education-secretaries/govt2.jpg " alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/education-secretaries/govt1.jpg " alt="image description">
-  <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
+  <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Team members Sheersh Sen and Shloak Vatsal meeting with the education secretaries of Karnataka and Jharkhand.</figcaption>
 </figure> 
 
 
@@ -170,7 +173,7 @@ We also released simplified versions of government documents on biotechnology, m
  <figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4 " src="https://static.igem.wiki/teams/4829/wiki/awards/education/education-secretaries/change-ss.jpeg " alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/education-secretaries/pbti-ceo.jpg" alt="image description">
-  <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
+  <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Our poster for the Biotechnology Day Petition; Our team member Aditya meeting with the CEO of PBTI and director of BBC.</figcaption>
 </figure> 
 
 
@@ -195,7 +198,7 @@ We also released simplified versions of government documents on biotechnology, m
   <img class="h-auto w-3/4 " src="https://static.igem.wiki/teams/4829/wiki/awards/education/openday/openday1.jpg" alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/openday/openday2.jpg" alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/openday/openday3.jpg " alt="image description">
-  <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
+  <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Some shots from the iGEM stall at the IISc Open Day.</figcaption>
 </figure> 
 
             </h2>
@@ -218,7 +221,7 @@ We also released simplified versions of government documents on biotechnology, m
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/carvaan/carvaanblr8.jpg " alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/carvaan/carvaanposter.jpg " alt="image description">
 
-  <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
+  <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">iGEM IISc team at Carvaan.</figcaption>
 </figure> 
 
             </h2>
@@ -593,14 +596,44 @@ Our team contributed significantly to the newsletter of Naturalists, the Biology
               India is a land of massive diversity, with 780 identified languages in the country. To take the message of synbio to a large audience, we translated our articles and brochures in 18 Indian languages, Hindi, Bengali, Malayalam, Telugu, Marathi, Tamil, Urdu, Assamese, Bhojpuri, Dogri, Gujarati, Konkani, Maithili, Mizo, Odia, Punjabi, Sasnkrit, Kannada, spoken by 94% people in India. Our team consists of members from various states who speak various languages. Some of the languages were translated with the help of Google Translate and then confirmed with native speakers. These were then sent to newspapers and magazines across the country. Several of them have been published, and some are under publication right now. We also translated our brochures, project promotion video and presentation video into the above languages. We collaborated with the IITD and HKU iGEM teams, translating their project promotion video and science story books respectively.  
 
 You can read the articles here:
+<ul class="underline ml-10 list-disc">
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/gujurati/gujarati-emdometriosis.pdf">Gujarati</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/dogri/dogri-final-endo.pdf">Dogri</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/konkani/konkani-endometriosis.pdf">Konkani</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/bhojpuri/bhojpuri-biotech-final.pdf">Bhojpuri</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/tamil/tamil-final-endo.pdf">Tamil</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/malayalam/malayalam-endo-final.pdf">Malayalam</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/kannada/kannada-endo-final.pdf">Kannada</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/urdu/urdu-endo-final.pdf">Urdu</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/telugu/telugu-endo-final.pdf">Telugu</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/punjabi/punjabi-biotech-final.pdf">Punjabi</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/marathi/marathi-endo-final.pdf">Marathi</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/hindi/hindi-endo-final.pdf">Hindi</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/odia/odia-endo-final.pdf">Odia</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/bengali/endometriosis-bengali.pdf">Bengali</a></li>
+</ul>
 
-[Dropdown 
+Brochures:
+<ul class="underline ml-10 list-disc">
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/urdu/urdy-biotech-final.pdf">Urdu</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/telugu/telugu-biotech-final.pdf">Telugu</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/tamil/biotech-tamil-final.pdf">Tamil</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/sanskrit/biotech-day-sanskrit.pdf">Sanskrit</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/punjabi/punjabi-biotech-final.pdf">Punjabi</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/odia/odia-biotech-final.pdf">Odia</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/mizo/mizo-biotech-day.pdf">Mizo</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/assamese/biotech-day-assamese.pdf">Assamese</a></li>
+    <li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/dogri/dogri-biotech-final.pdf">Dogri</a></li>
+<li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/bhojpuri/bhojpuri-biotech-final.pdf">Bhojpuri</a></li>
+<li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/gujurati/gujarati-biotech-day.pdf">Gujarati</a></li>
+<li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/hindi/hindi-biotech-final.pdf">Hindi</a></li>
+<li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/kannada/kannada-biotech-final.pdf">Kannada</a></li>
+<li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/konkani/biotech-day-konkani.pdf">Konkani</a></li>
+<li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/maithili/biotech-day-maithili.pdf">Maithili</a></li>
+<li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/malayalam/malayalam-biotech-final.pdf">Malayalam</a></li>
+<li><a href="https://static.igem.wiki/teams/4829/wiki/language-brochures/bengali/biotech-day-bengali.pdf">Bengali</a></li>
 
-Language 
-
-articles 
-
-brochure] 
+</ul>
             </h2>
           </section>
 

@@ -8,14 +8,15 @@
   <div class = "w-screen align-centre relative left-2/4 -translate-x-2/4 bg-gradient-to-b from-white to-violet-950">
   
     <div class = "grid w-2/4 gap-4 grid-cols-2 grid-rows-5  relative left-2/4 -translate-x-2/4">
-      <img src  ="/p1.png" class = "border-black border-4">
-      <img src  ="/p2.png" class = "border-black border-4">
-      <img src  ="/p3.png" class = "border-black border-4">
-      <img src  ="/p4.png" class = "border-black border-4">
-      <img src  ="/p5.png" class = "border-black border-4">
-      <img src  ="/p6.png" class = "border-black border-4">
-      <img src  ="/p8.png" class = "border-black border-4">
-      <img src  ="/p9.png" class = "border-black border-4">
+      <img src="https://static.igem.wiki/teams/4829/wiki/comic-front/p1.jpg" class = "border-black border-4">
+      <img src="https://static.igem.wiki/teams/4829/wiki/comic-front/p2.jpg" class = "border-black border-4">
+      <img src="https://static.igem.wiki/teams/4829/wiki/comic-front/p3.jpg" class = "border-black border-4">
+      <img src="https://static.igem.wiki/teams/4829/wiki/comic-front/p4.jpg" class = "border-black border-4">
+      <img src="https://static.igem.wiki/teams/4829/wiki/comic-front/p5.jpg" class = "border-black border-4">
+      <img src="https://static.igem.wiki/teams/4829/wiki/comic-front/p6.jpg" class = "border-black border-4">
+      <img src="https://static.igem.wiki/teams/4829/wiki/comic-front/p7.jpg" class = "border-black border-4">
+      <img src="https://static.igem.wiki/teams/4829/wiki/comic-front/p8.jpg" class = "border-black border-4">
+      <img src="https://static.igem.wiki/teams/4829/wiki/comic-front/p9.jpg" class = "border-black border-4">
     </div>
 
     <div class = "text-violet-950 font-bold text-8xl max-md:text-7xl text-transparent text-center title-text">
