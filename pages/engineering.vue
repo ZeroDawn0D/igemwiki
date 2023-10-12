@@ -8,6 +8,27 @@
       </div>
     </div>
 
+“Mistakes are a fact of life. It is the response to error that counts.” - Nikki Giovanni 
+
+The engineering of our project followed the Design-Build-Test-Learn approach. DBTL approach allowed us@ to refine our projects iteratively, learning from each cycle. This process ensured our final biological systems are reliable, functional and robust. 
+
+Ideation: 
+
+Once we decided to develop a non-invasive treatment to endometriosis, we brainstormed multiple ways of doing it. The very phase of ideation involved the delivery of miRNA using exosomes to endometriotic cells. We looked at literature to choose the target and selected CTGF initially, to prevent fibrosis that takes root later in the lifetime of the patient, delivered using our exosomes. However, we soon found out that we didn’t know the sequence of Extra Domain A of Fibronectin, and hence we can’t use exosomes. 
+
+While going through literature to find alternatives, we came across IL10, with evidence supporting its suppression of Endometriosis. This made us delve deeper into Interleaukins associated with Endometriosis. After extensive review, we realised that IL8 is a more promising target. However, questions remained about the implementation of the same. 
+
+Consulting with Dr Rachit helped us, as we realised LNPs are more versatile and easier to use carriers, with proven applications in the recent pandemic. It was just a matter of time before we connected the dots and decided to use mRNA as our solution, as was the original use case with LNPs.  
+
+Now, only one challenge remained. IL8 is found everywhere in the body and blocking it everywhere would be fatal. It was then that our original idea came to our rescue, as we found out about the Extra Domain B of fibronectin, overexpressed in Endometriotic tissues. We found in literature, Aptides, a magic peptide sequence that targets EDB of Fn specifically, which made it possible to implement our solution. 
+
+Later on, we explored some other pathways and molecules too, which can be exploited to treat similar conditions. This stemmed from our conversations with various stakeholders as we realised immune dysregulation a major culprit behind Endometriosis. Hence, we targeted macrophages, by activating their CD36 receptor, downregulated in Endometriotic patients. This would also have allowed us to increase the duration our treatment remained effective, as macrophages get recycled inside the body. 
+
+Hence, our ideation was a step-by-step stacking of small improvements, which finally brought our project in the present form. 
+
+
+
+
     <div
       @click="
         synbio = true;

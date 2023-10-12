@@ -12,108 +12,73 @@
           <nav class = "sticky overflow-auto h-screen top-16 border-r-8 py-8" >
             <ul>
               <li>
-                <div class = "class-may cursor-pointer text-2xl" ref = "mayButton">May</div>
+                <div class = "class-dr cursor-pointer text-2xl" ref = "drButton">Dry Runs</div>
                 <ul class = "list-disc list-inside">
                   <li>
-                    <div class = "class-may1 cursor-pointer text-md" ref = "may1Button" >Week 1</div>
-                  </li>
-                  <li>
-                    <div class = "class-may1 cursor-pointer text-md" ref = "may1Button" >Week 2</div>
-                  </li>
-                  <li>
-                    <div class = "class-may1 cursor-pointer text-md" ref = "may1Button" >Week 3</div>
-                  </li>
-                  <li>
-                    <div class = "class-may1 cursor-pointer text-md" ref = "may1Button" >Week 4</div>
-                  </li>
-                </ul>
-              </li>
-      
+                    <div class = "class-dr1 cursor-pointer text-md" ref = "dr1Button" >RFP Transformation</div>
 
-              <li>
-                <div class = "class-june cursor-pointer text-2xl" ref = "juneButton">June</div>
-                <ul class = "list-disc list-inside">
-                  <li>
-                    <div class = "class-june1 cursor-pointer text-md" ref = "june1Button" >Week 1</div>
                   </li>
                   <li>
-                    <div class = "class-june1 cursor-pointer text-md" ref = "june1Button" >Week 2</div>
+                    <div class = "class-dr1 cursor-pointer text-md" ref = "dr1Button" >GFP Transformation</div>
+                    
                   </li>
                   <li>
-                    <div class = "class-june1 cursor-pointer text-md" ref = "june1Button" >Week 3</div>
+                    <div class = "class-dr1 cursor-pointer text-md" ref = "dr1Button" >His-tagged Ferredoxin Purification</div>
+                    
                   </li>
-                  <li>
-                    <div class = "class-june1 cursor-pointer text-md" ref = "june1Button" >Week 4</div>
-                  </li>
+                  
                 </ul>
               </li>
 
               <li>
-                <div class = "class-july cursor-pointer text-2xl" ref = "julyButton">July</div>
+                <div class = "class-wl cursor-pointer text-2xl" ref = "wlButton">Wet Lab</div>
                 <ul class = "list-disc list-inside">
                   <li>
-                    <div class = "class-july1 cursor-pointer text-md" ref = "july1Button" >Week 1</div>
+                    <div class = "class-wl1 cursor-pointer text-md" ref = "wl1Button" >O-IL-8 plasmid extraction and transformation</div>
+
                   </li>
                   <li>
-                    <div class = "class-july1 cursor-pointer text-md" ref = "july1Button" >Week 2</div>
+                    <div class = "class-wl1 cursor-pointer text-md" ref = "wl1Button" >BLI of purified anti-IL8</div>
+                    
                   </li>
                   <li>
-                    <div class = "class-july1 cursor-pointer text-md" ref = "july1Button" >Week 3</div>
+                    <div class = "class-wl1 cursor-pointer text-md" ref = "wl1Button" >mRNA Transfection into HeLa Cells</div>
+                    
                   </li>
                   <li>
-                    <div class = "class-july1 cursor-pointer text-md" ref = "july1Button" >Week 4</div>
+                    <div class = "class-wl1 cursor-pointer text-md" ref = "wl1Button" >LNP formulation and characterisation</div>
+                    
                   </li>
+                  
                 </ul>
               </li>
-
               <li>
-                <div class = "class-august cursor-pointer text-2xl" ref = "augustButton">August</div>
+                <div class = "class-dl cursor-pointer text-2xl" ref = "dlButton">Dry Lab</div>
                 <ul class = "list-disc list-inside">
                   <li>
-                    <div class = "class-august1 cursor-pointer text-md" ref = "august1Button" >Week 1</div>
+                    <div class = "class-dl1 cursor-pointer text-md" ref = "dl1Button" >scFc Structure Modelling</div>
+
                   </li>
                   <li>
-                    <div class = "class-august1 cursor-pointer text-md" ref = "august1Button" >Week 2</div>
+                    <div class = "class-dl1 cursor-pointer text-md" ref = "dl1Button" >Nanobodies</div>
+                    
                   </li>
                   <li>
-                    <div class = "class-august1 cursor-pointer text-md" ref = "august1Button" >Week 3</div>
+                    <div class = "class-dl1 cursor-pointer text-md" ref = "dl1Button" >Docking</div>
+                    
                   </li>
                   <li>
-                    <div class = "class-august1 cursor-pointer text-md" ref = "august1Button" >Week 4</div>
+                    <div class = "class-dl1 cursor-pointer text-md" ref = "dl1Button" >Toxicity Estimation subheading</div>
+                    
                   </li>
+
+                  <li>
+                    <div class = "class-dl1 cursor-pointer text-md" ref = "dl1Button" >mRNA Optimisation subheading</div>
+                    
+                  </li>
+                  
                 </ul>
               </li>
-
-              <li>
-                <div class = "class-september cursor-pointer text-2xl" ref = "septemberButton">September</div>
-                <ul class = "list-disc list-inside">
-                  <li>
-                    <div class = "class-september1 cursor-pointer text-md" ref = "september1Button" >Week 1</div>
-                  </li>
-                  <li>
-                    <div class = "class-september1 cursor-pointer text-md" ref = "september1Button" >Week 2</div>
-                  </li>
-                  <li>
-                    <div class = "class-september1 cursor-pointer text-md" ref = "september1Button" >Week 3</div>
-                  </li>
-                  <li>
-                    <div class = "class-september1 cursor-pointer text-md" ref = "september1Button" >Week 4</div>
-                  </li>
-                </ul>
-              </li>
-
-              <li>
-                <div class = "class-october cursor-pointer text-2xl" ref = "octoberButton">October</div>
-                <ul class = "list-disc list-inside">
-                  <li>
-                    <div class = "class-october1 cursor-pointer text-md" ref = "october1Button" >Week 1</div>
-                  </li>
-                  <li>
-                    <div class = "class-october1 cursor-pointer text-md" ref = "october1Button" >Week 2</div>
-                  </li>
-                </ul>
-              </li>
-
 
             </ul>
           </nav>  
@@ -122,233 +87,14 @@
         <div class = "col-span-9 max-md:col-span-12 text-justify text-xl">
           <section id = "may" ref = "may">
             <h1>
-              May
+              Dry Runs
             </h1>
             <h2>
                  
             </h2>
             <section id = "may1" ref = " may1">
               <h3>
-                Week 1
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-            <section id = "may1" ref = " may1">
-              <h3>
-                Week 2
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-            <section id = "may1" ref = " may1">
-              <h3>
-                Week 3
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-            <section id = "may1" ref = " may1">
-              <h3>
-                Week 4
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-
-
-            </section>
-
-            <section id = "june" ref = "june">
-            <h1>
-              June
-            </h1>
-            <h2>
-                 
-            </h2>
-            <section id = "june1" ref = " june1">
-              <h3>
-                Week 1
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-            <section id = "june1" ref = " june1">
-              <h3>
-                Week 2
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-            <section id = "june1" ref = " june1">
-              <h3>
-                Week 3
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-            <section id = "june1" ref = " june1">
-              <h3>
-                Week 4
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-
-
-            </section>
-            <section id = "july" ref = "july">
-            <h1>
-              July
-            </h1>
-            <h2>
-                 
-            </h2>
-            <section id = "july1" ref = " july1">
-              <h3>
-                Week 1
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-            <section id = "july1" ref = " july1">
-              <h3>
-                Week 2
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-            <section id = "july1" ref = " july1">
-              <h3>
-                Week 3
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-            <section id = "july1" ref = " july1">
-              <h3>
-                Week 4
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-
-
-            </section>
-            <section id = "august" ref = "august">
-            <h1>
-              August
-            </h1>
-            <h2>
-                 
-            </h2>
-            <section id = "august1" ref = " august1">
-              <h3>
-                Week 1
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-            <section id = "august1" ref = " august1">
-              <h3>
-                Week 2
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-            <section id = "august1" ref = " august1">
-              <h3>
-                Week 3
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-            <section id = "august1" ref = " august1">
-              <h3>
-                Week 4
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-
-
-            </section>
-            <section id = "september" ref = "september">
-            <h1>
-              September
-            </h1>
-            <h2>
-                 
-            </h2>
-            <section id = "september1" ref = " september1">
-              <h3>
-                Week 1
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-            <section id = "september1" ref = " september1">
-              <h3>
-                Week 2
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-            <section id = "september1" ref = " september1">
-              <h3>
-                Week 3
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-            <section id = "september1" ref = " september1">
-              <h3>
-                Week 4
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-
-
-            </section>
-            <section id = "october" ref = "october">
-            <h1>
-              October
-            </h1>
-            <h2>
-                 
-            </h2>
-            <section id = "october1" ref = " october1">
-              <h3>
-                Week 1
-              </h3>
-              <h2>
-
-              </h2>
-            </section>
-            <section id = "october1" ref = " october1">
-              <h3>
-                Week 2
+                RFP Transformations
               </h3>
               <h2>
 
