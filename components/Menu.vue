@@ -181,6 +181,9 @@ watch(awards, async(newAward, oldAward) =>{
 		            <NuxtLink to="/engineering" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Engineering</NuxtLink>
 		          </MenuItem>
 		          <MenuItem v-slot="{ active }">
+		            <NuxtLink to="/modelling" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Modelling</NuxtLink>
+		          </MenuItem>
+		          <MenuItem v-slot="{ active }">
 		            <NuxtLink to="/experiments" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Experiments</NuxtLink>
 		          </MenuItem>
 		          <MenuItem v-slot="{ active }">
