@@ -5,7 +5,7 @@
         ENTREPRENEURSHIP
       </div>
     </div>
-    <iframe class = "w-screen" src = ""
+    <iframe class = "w-screen" src = "https://static.igem.wiki/teams/4829/wiki/business2.pdf"></iframe>
   </div>
 </template>
 

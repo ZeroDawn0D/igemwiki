@@ -7,6 +7,7 @@
     </div>
     <!-- IMPORTANT CHANGE TO MAKE HERE-->
     <div class =  "w-3/4 max-md:w-screen  relative left-2/4 -translate-x-2/4">
+<<<<<<< HEAD
       <iframe class = "w-screen" src = ""></iframe>
 <div class = "text-4xl courierprimebold">
 PARTS SAFETY  
@@ -16,10 +17,12 @@ All components of our project have been recorded in our safety form. The protein
 LAB SAFETY  
 </div>
 To ensure absolute safety of everyone involved in laboratory work, all team members were screened and certified by the Office of Laboratory Safety and Environmental Health (OLSEH) in IISc before commencement of wet lab procedures.  
+=======
+      
+      <iframe src="https://static.igem.wiki/teams/4829/wiki/modelling/modelling.pdf" width="100%" height="800px"></iframe>
+>>>>>>> a71d45942b0ae080afa10414d87ed990328a3e95
 
-Lab instructors Dr. Lavanya S. and Mr. HS Vinod accompanied us during each lab session and offered invaluable advice and supervision to ensure equipment health and overall safety.  
 
-All experiments and procedures were conducted in BSL-2 laboratories and proper lab attire like lab coats, fresh nitrile gloves and footwear was mandated for students and staff alike.  
     </div>
   </div>
 </template>
