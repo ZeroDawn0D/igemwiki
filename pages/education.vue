@@ -5,10 +5,22 @@
         EDUCATION
       </div>
     </div>
+<div class = "text-lg w-3/4" >
+“Nothing in science has any value to society if it is not communicated."  
 
+Anne Roe, American clinical psychologist and researcher 
 
+MetraMorpheus brings together synthetic biology and endometriosis. As we started our interactions with people outside the scientific circle, we realised that there was widespread ignorance to both these aspects. In order to gauge the situation better, we conducted multiple surveys, following the guidelines laid down by iGEM.  
+
+ 
+
+The results showed that only 37% and 6.3% of people have heard about synthetic biology and endometriosis respectively.  Among the 37% of respondents knowing about synthetic biology, most are in the age group of 19-23 i.e., college students. Among the school students, this falls to a mere 16.5%.  
+
+Our core belief is that everyone, regardless of age or level of education, should have the opportunity to get informed about global challenges and the development of new technologies applied to solve them. Thus, we as the iGEM IISc team felt the responsibility to take meaningful action. We wanted to leave a lasting impact on the community by trying to bridge the gap between the ivory towers of research and the general public.  
+
+Hence, we valued education very highly in our project, with efforts directed towards both the themes, while trying to ensure mutual learning afterward. The biggest challenge here was to reach and include everyone in this discussion. Having a variety of educational tools appeared essential to us, as well as adopting a language accessible to a wide audience.  
    
-
+</div>
     
 
     <div @click= "synbio=true; console.log(synbio)" class = "mt-4 wireframe2 relative left-2/4 -translate-x-2/4">

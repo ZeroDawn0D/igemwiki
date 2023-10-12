@@ -70,10 +70,10 @@ BBa_K4829019 to BBa_K4829025 are all RNA sequences (that code for ONLY the CDS o
                 Optimisation of the sequences with Ribotree, in collboration with Das Labs in Stanford
               </h3>
               <h2>
-                <figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+                <!--<figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4 " src=" https://static.igem.wiki/teams/4829/wiki/best-parts-collection/das-labs.png" alt="image description">
 
-</figure> 
+</figure> -->
               We are currently collaborating with Das Labs in Stanford to optimise our RNA sequence for optimal translational efficiency and stability. Though we have not tested out our new sequences due to lack of resources and time, the software has already been proven to be quite reliable! 
 <br><br>
 So, why have we included the RNA sequences optimised by ribotree as separate sequences? 
