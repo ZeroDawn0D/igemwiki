@@ -67,7 +67,7 @@ watch(awards, async(newAward, oldAward) =>{
 	<div class = "flex justify-between items-center my-3">
 		<img src="https://static.igem.wiki/teams/4829/wiki/logo/metramorpheus.png" class = "w-28" />
 		<div >
-			<img src = "close.svg" class = "cursor-pointer" @click = "burger = !burger">
+			<img src = "/close.svg" class = "cursor-pointer" @click = "burger = !burger">
 		</div>
 	</div>
 
@@ -236,7 +236,7 @@ watch(awards, async(newAward, oldAward) =>{
 	</nav>
 
 	<div class = "md:hidden cursor-pointer">
-		<img src = "burger.svg" @click = "burger = !burger; console.log(burger)" class = "w-14 relative top-2/4 -translate-y-2/4">
+		<img src = "/burger.svg" @click = "burger = !burger; console.log(burger)" class = "w-14 relative top-2/4 -translate-y-2/4">
 		
 	</div>
 </div>
