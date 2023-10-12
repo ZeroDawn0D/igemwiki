@@ -8,23 +8,27 @@
       </div>
     </div>
 
-“Mistakes are a fact of life. It is the response to error that counts.” - Nikki Giovanni 
+    <section class="p-4">
+      <i>“Mistakes are a fact of life. It is the response to error that counts.”</i><br>
+      <b>Nikki Giovanni</b>
+      <br><br>
 
-The engineering of our project followed the Design-Build-Test-Learn approach. DBTL approach allowed us@ to refine our projects iteratively, learning from each cycle. This process ensured our final biological systems are reliable, functional and robust. 
+<p>The engineering of our project followed the Design-Build-Test-Learn approach. DBTL approach allowed us@ to refine our projects iteratively, learning from each cycle. This process ensured our final biological systems are reliable, functional and robust.</p>
 
-Ideation: 
+<h3 class="mt-4">Ideation</h3> 
 
-Once we decided to develop a non-invasive treatment to endometriosis, we brainstormed multiple ways of doing it. The very phase of ideation involved the delivery of miRNA using exosomes to endometriotic cells. We looked at literature to choose the target and selected CTGF initially, to prevent fibrosis that takes root later in the lifetime of the patient, delivered using our exosomes. However, we soon found out that we didn’t know the sequence of Extra Domain A of Fibronectin, and hence we can’t use exosomes. 
-
-While going through literature to find alternatives, we came across IL10, with evidence supporting its suppression of Endometriosis. This made us delve deeper into Interleaukins associated with Endometriosis. After extensive review, we realised that IL8 is a more promising target. However, questions remained about the implementation of the same. 
-
-Consulting with Dr Rachit helped us, as we realised LNPs are more versatile and easier to use carriers, with proven applications in the recent pandemic. It was just a matter of time before we connected the dots and decided to use mRNA as our solution, as was the original use case with LNPs.  
-
-Now, only one challenge remained. IL8 is found everywhere in the body and blocking it everywhere would be fatal. It was then that our original idea came to our rescue, as we found out about the Extra Domain B of fibronectin, overexpressed in Endometriotic tissues. We found in literature, Aptides, a magic peptide sequence that targets EDB of Fn specifically, which made it possible to implement our solution. 
-
-Later on, we explored some other pathways and molecules too, which can be exploited to treat similar conditions. This stemmed from our conversations with various stakeholders as we realised immune dysregulation a major culprit behind Endometriosis. Hence, we targeted macrophages, by activating their CD36 receptor, downregulated in Endometriotic patients. This would also have allowed us to increase the duration our treatment remained effective, as macrophages get recycled inside the body. 
-
-Hence, our ideation was a step-by-step stacking of small improvements, which finally brought our project in the present form. 
+<p>Once we decided to develop a non-invasive treatment to endometriosis, we brainstormed multiple ways of doing it. The very phase of ideation involved the delivery of miRNA using exosomes to endometriotic cells. We looked at literature to choose the target and selected CTGF initially, to prevent fibrosis that takes root later in the lifetime of the patient, delivered using our exosomes. However, we soon found out that we didn’t know the sequence of Extra Domain A of Fibronectin, and hence we can’t use exosomes. </p>
+<br>
+<p>While going through literature to find alternatives, we came across IL10, with evidence supporting its suppression of Endometriosis. This made us delve deeper into Interleaukins associated with Endometriosis. After extensive review, we realised that IL8 is a more promising target. However, questions remained about the implementation of the same. </p>
+<br>
+<p>Consulting with Dr Rachit helped us, as we realised LNPs are more versatile and easier to use carriers, with proven applications in the recent pandemic. It was just a matter of time before we connected the dots and decided to use mRNA as our solution, as was the original use case with LNPs.  </p>
+<br>
+<p>Now, only one challenge remained. IL8 is found everywhere in the body and blocking it everywhere would be fatal. It was then that our original idea came to our rescue, as we found out about the Extra Domain B of fibronectin, overexpressed in Endometriotic tissues. We found in literature, Aptides, a magic peptide sequence that targets EDB of Fn specifically, which made it possible to implement our solution. </p>
+<br>
+<p>Later on, we explored some other pathways and molecules too, which can be exploited to treat similar conditions. This stemmed from our conversations with various stakeholders as we realised immune dysregulation a major culprit behind Endometriosis. Hence, we targeted macrophages, by activating their CD36 receptor, downregulated in Endometriotic patients. This would also have allowed us to increase the duration our treatment remained effective, as macrophages get recycled inside the body. </p>
+<br>
+<p>Hence, our ideation was a step-by-step stacking of small improvements, which finally brought our project in the present form. </p>
+    </section>
 
 
 
@@ -96,7 +100,7 @@ Hence, our ideation was a step-by-step stacking of small improvements, which fin
               </li>
               <li>
                 <div class="class-lnp cursor-pointer text-2xl" ref="lnpButton">
-                  Lipid Nanoparticle Quantification
+                  Lipid Nanoparticle Formulation and Characterization
                 </div>
               </li>
             </ul>
@@ -830,14 +834,16 @@ Hence, our ideation was a step-by-step stacking of small improvements, which fin
             </h2>
           </section>
           <section id="lnp">
-            <h1>Lipid Nanoparticle Quantification</h1>
+            <h1>Lipid Nanoparticle Formulation and Characterization</h1>
             <h2>
               <h2
                 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1"
               >
                 <b>Design</b>
                 <br />
-                LNP formulation.
+                LNPs with the below composition were fabricated using the iLNP chip at flow rate ratio (mRNA:lipid) =3:1 i.e 240 and 80 ul/min using a 20 baffle mixer. Nishant, a PhD mentor, suggested that we use a 20 baffle mixer (instead of 30 or 10) since they were pre-optimised for 100nm LNPs.
+Based on our inputs from Dr. Pradipta, the LNPs were formulated with four lipids: ALC-0315, mal-PEG 2000, cholesterol and DSPC. ALC-0315 was the cationic lipid. It was necessary as RNA is negatively charged and the cationic lipid helps in the uptake of the RNA. The molar ratios used were ionizable cationic lipid: neutral lipid: cholesterol: PEG-ylated lipid:: 50: 10: 38.5: 1.5. 
+DSPC is the neutral lipid.
               </h2>
               <h2
                 class="bg-green-300 border-l-4 border-green-800 pl-1 pr-1 pb-1 pt-1"
@@ -949,40 +955,123 @@ Hence, our ideation was a step-by-step stacking of small improvements, which fin
             <h1>Signal Peptide for Mammalian Cells</h1>
 
             <h2>
-              Design:
-              <br />
-              Use TPA as a mammalian signal peptide, as it is the mostly used in
-              genetic constructs.
-              <br />
-              Test:
-              <br />
-              Use SignalP 6.0 to check efficiency of signaling. Learn:
-              <br />
-              tPA shows good secretion probability on SignalP 6.0,
+              <h2 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Design</b>
+  <br>
+  Use TPA as a mammalian signal peptide, as it is the mostly used in genetic constructs.
+</h2>
+<h2 class="bg-red-300 border-l-4 border-red-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Test</b>
+  <br>
+  Use SignalP 6.0 to check efficiency of signaling.
+</h2>
+<h2 class="bg-blue-300 border-l-4 border-blue-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Learn</b>
+  <br>
+  tPA shows good secretion probability on SignalP 6.0.
+</h2>
+<br>
+<h2 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Design</b>
+  <br>
+  Based on feedback from PhD students and on literature review, we decided to investigate the multiple signal peptides.
+</h2>
+<h2 class="bg-green-300 border-l-4 border-green-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Build</b>
+  <br>
+  We moved our focus to using CD33 as a mammalian signal peptide.
+</h2>
+<h2 class="bg-red-300 border-l-4 border-red-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Test</b>
+  <br>
+  We used SignalP 6.0 to check efficiency of signaling, along with a few other signal peptides:
+  <br />
+  <table class="text-sm">
+  <tr>
+    <td class="border border-black">Leader sequence Name</td>
+    <td class="border border-black">Sequence</td>
+  </tr>
+  <tr>
+    <td class="border border-black">Human OSM</td>
+    <td class="border border-black">MGVLLTQRTLLSLVLALLFPSMASM</td>
+  </tr>
+  <tr>
+    <td class="border border-black">VSV-G</td>
+    <td class="border border-black">MKCLLYLAFLFIGVNC</td>
+  </tr>
+  <tr>
+    <td class="border border-black">Mouse Ig Kappa</td>
+    <td class="border border-black">METDTLLLWVLLLWVPGSTGD</td>
+  </tr>
+  <tr>
+    <td class="border border-black">Mouse Ig Heavy</td>
+    <td class="border border-black">MGWSCIILFLVATATGVHS</td>
+  </tr>
+  <tr>
+    <td class="border border-black">BM40</td>
+    <td class="border border-black">MRAWIFFLLCLAGRALA</td>
+  </tr>
+  <tr>
+    <td class="border border-black">Secrecon</td>
+    <td class="border border-black">MWWRLWWLLLLLLLLWPMVWA</td>
+  </tr>
+  <tr>
+    <td class="border border-black">Human IgKVIII</td>
+    <td class="border border-black">MDMRVPAQLLGLLLLWLRGARC</td>
+  </tr>
+  <tr>
+    <td class="border border-black">CD33</td>
+    <td class="border border-black">MPLLLLLPLLWAGALA</td>
+  </tr>
+  <tr>
+    <td class="border border-black">tPA</td>
+    <td class="border border-black">MDAMKRGLCCVLLLCGAVFVSPS</td>
+  </tr>
+  <tr>
+    <td class="border border-black">Human Chymotrypsinogen</td>
+    <td class="border border-black">MAFLWLLSCWALLGTTFG</td>
+  </tr>
+  <tr>
+    <td class="border border-black">Human trypsinogen-2</td>
+    <td class="border border-black">MNLLLILTFVAAAVA</td>
+  </tr>
+  <tr>
+    <td class="border border-black">Human IL-2</td>
+    <td class="border border-black">MYRMQLLSCIALSLALVTNS</td>
+  </tr>
+  <tr>
+    <td class="border border-black">Gaussia luc</td>
+    <td class="border border-black">MGVKVLFALICIAVAEA</td>
+  </tr>
+  <tr>
+    <td class="border border-black">Albumin(HSA)</td>
+    <td class="border border-black">MKWVTFISLLFSSAYS</td>
+  </tr>
+  <tr>
+    <td class="border border-black">Influenza Haemagglutinin</td>
+    <td class="border border-black">MKTIIALSYIFCLVLG</td>
+  </tr>
+  <tr>
+    <td class="border border-black">Human insulin</td>
+    <td class="border border-black">MALWMRLLPLLALLALWGPDPAAA</td>
+  </tr>
+  <tr>
+    <td class="border border-black">Silkworm Fibroin LC</td>
+    <td class="border border-black">MKPIFLVLLVVTSAYA</td>
+  </tr>
+</table>
 
-              <br /><br />
-              Design:
-              <br />
-              Based on feedbacks from PhD students and on literature review , we
-              decided to investigate the multiple signal peptides.
+  <figure class="grid grid-cols-2 w-3/4 relative relative left-2/4 -translate-x-2/4 my-8">
+  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/pages-photos/engineering/signalpeptide.jpg" alt="image description">
+  <figcaption class="mt-2 text-sm">The probability of secretion is highest with CD33.</figcaption>
+</figure>
+</h2>
+<h2 class="bg-blue-300 border-l-4 border-blue-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Learn</b>
+  <br>
+  Good efficiency is seen for CD33, significantly higher than in tPA. So we selected it as our signal peptide for mammalian protein expression.
+</h2>
 
-              <br />
-              We moved our focus to using CD33 as a mammalian signal peptide.
-              <br />
-              Test:
-              <br />
-              We used SignalP 6.0 to check efficiency of signaling, along with a
-              few other signal peptides:
-              <br />
-              [TABLE]
-              <br />
-              [IMG]
-              <br />
-              Learn:
-              <br />
-              Good efficiency is seen for CD33, significantly higher than in
-              tPA. So we selected it as our signal peptide for mammalian protein
-              expression.
             </h2>
           </section>
 
@@ -990,161 +1079,350 @@ Hence, our ideation was a step-by-step stacking of small improvements, which fin
             <h1>dAb Design</h1>
 
             <h2>
-              Design:
-              <br />
-              The standard procedure Camelisation i.e. removal of the entirely
-              of the sequence except the VH (Variable head), followed by the
-              replacement of four hydrophobic with more hydrophilic amino acids
-              to avoid the exposure of such a sizeable hydrophobic region to
-              solvent, and other similar changes to increase stability.
-              <br />
-              link to modeling/ dAb design>
-              <br />
-              Build:
-              <br />
-              To make a preliminary version of such a molecule, do the
-              following:
-              <br />
-              Take the VH and VL regions and go through the sequences. Change
-              the amino acid positions to the ones mentioned above if it is not
-              already this.
-              <br />
-              Join the 2 sequences with a linker: GGGGSGGGGSGGGGS.
-              <br />
-              This simple change is all it takes to get a preliminary scFv!
-              <br />
-              Test:
-              <br />
-              Checked our results with docking and GRAMM, which gave very good
-              results!
+              
+              <h2 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Design</b>
+  <br>
+  The standard procedure Camelization i.e. removal of the entirely of the sequence except the VH (Variable head), followed by the replacement of four hydrophobic with more hydrophilic amino acids to avoid the exposure of such a sizeable hydrophobic region to solvent, and other similar changes to increase stability. <a href="/modeling" class="underline">Link to modeling.</a>
+</h2>
+<h2 class="bg-green-300 border-l-4 border-green-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Build</b>
+  <br>
+  To make a preliminary version of such a molecule, do the following:
+  <br>
+  <ul class="list-disc ml-10">
+    <li>Take the VH and VL regions and go through the sequences. Change the amino acid positions to the ones mentioned above if it is not already this.</li>
+    <li>Join the 2 sequences with a linker: GGGGSGGGGSGGGGS.</li>
+  </ul>
+  This simple change is all it takes to get a preliminary scFv!
+</h2>
+<h2 class="bg-red-300 border-l-4 border-red-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Test</b>
+  <br>
+  Checked our results with docking and GRAMM, which gave very good results!
+</h2>
+
             </h2>
           </section>
           <section id="pk" ref="pk">
             <h1>PK/QSP</h1>
 
             <h2>
-              Aim of PK/PD: To determine the movement of the LNP based drug
-              through the body and determine the body’s biological response to
-              it.
-              <br /><br />
-              Design and Build:
-              <br />
-              We designed a lipid nanoparticle which would carry the mRNA inside
-              the endometrial cells. We determined the characteristics of the
-              LNPs prepared. We further use this data to run a simulation.
-              <br />
-              Test: Using the PK-Sim software on Open Systems pharmacology, we
-              get data regarding concentrations of drug in the endometrial
-              tissue over time.
-              <br />
-              Learn: We use this data to optimize the characteristics of the
-              lipid nano particle.
-              <br />
+              <h2>
+  <b>Aim of PK/PD</b>
+  <br>
+  To determine the movement of the LNP-based drug through the body and determine the body’s biological response to it.
+</h2>
+<h2 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Design and Build</b>
+  <br>
+  We designed a lipid nanoparticle which would carry the mRNA inside the endometrial cells. We determined the characteristics of the LNPs prepared. We further use this data to run a simulation.
+</h2>
+<h2 class="bg-red-300 border-l-4 border-red-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Test</b>
+  <br>
+  Using the PK-Sim software on Open Systems Pharmacology, we get data regarding concentrations of the drug in the endometrial tissue over time.
+</h2>
+<h2 class="bg-blue-300 border-l-4 border-blue-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Learn</b>
+  <br>
+  We use this data to optimize the characteristics of the lipid nanoparticle.
+</h2>
+
             </h2>
           </section>
           <section id="had" ref="had">
             <h1>Homology and Docking</h1>
-
-            <h2>
-              Aim of docking: To determine the structural interactions between
+            <h2>           <h2>
+  <b>Aim of Docking</b>
+  <br>
+  Aim of docking: To determine the structural interactions between
               IL-8 and Anti IL-8, between the Aptide and the Fibronectin EDB,
               between PD1 and anti-PD1, IL6 and anti-IL6 and nanobody versions
               of all antibodies.
-              <br />
-              Design: We determined the sequences of all the required proteins
-              and collected the relevant data for the models from the respective
-              PDB files. One protein was to be the ligand and the other the
-              receptor. The ligand and receptor files were combined to form a
-              complex.pdb file.
-              <br />
-              Build: We ran the ligand and receptor files through GRAMM web
-              docking server and got 10 different models of possible docking
-              orientations. We combined the first ligand model with the receptor
-              model to get a ligand-receptor complex model.
-              <br />
-              Test: We used PRODIGY to determine the ‘predicted binding
-              affinity’ of the proteins.
-              <br />
-              Learn: The data obtained can be used as reference for wet labs. We
-              also plan to try out all the 10 different models received to
-              figure out which gives results most relevant to the wet lab
-              results.
             </h2>
+            <h2 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Design</b>
+  <br>
+  We determined the sequences of all the required proteins and collected the relevant data for the models from the respective PDB files. One protein was to be the ligand and the other the receptor. The ligand and receptor files were combined to form a complex.pdb file.
+</h2>
+<h2 class="bg-green-300 border-l-4 border-green-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Build</b>
+  <br>
+  We ran the ligand and receptor files through GRAMM web docking server and got 10 different models of possible docking orientations. We combined the first ligand model with the receptor model to get a ligand-receptor complex model.
+</h2>
+<h2 class="bg-red-300 border-l-4 border-red-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Test</b>
+  <br>
+  We used PRODIGY to determine the ‘predicted binding affinity’ of the proteins.
+</h2>
+<h2 class="bg-blue-300 border-l-4 border-blue-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Learn</b>
+  <br>
+  The data obtained can be used as reference for wet labs. We also plan to try out all the 10 different models received to figure out which gives results most relevant to the wet lab results.
+</h2></h2>
+
+
+
+     
           </section>
           <section id="pd" ref="pd">
             <h1>Primer Design</h1>
 
             <h2>
-              Motivation:
-              <br />
-              Our interaction with Debajyoti, a PhD at Prof. Raghavan’s lab,
+
+              <h2>
+  <b>Motivation</b>
+  <br>
+  Our interaction with Debajyoti, a PhD at Prof. Raghavan’s lab,
               made us realize that we had a finite stock of DNA, if we weren’t
               using a plasmid. On further feedback from seniors and mentors, we
-              decided to go ahead with
-              <br /><br />
-              Design:
-              <br />
-              Taking aid from Addgene’s handbook(plasmids 101) and their primer
-              design website, we set out to design a plasmid with the following
-              properties:
-              <br />
-              Length of 18-24 bases.
-              <br />
-              40-60% G/C content.
-              <br />
-              Start and end with 1-2 G/C pairs.
-              <br />
-              Melting temperature (Tm) of 50-60°C.
-              <br />
-              Primer pairs should have a Tm within 5°C of each other.
-              <br />
-              Primer pairs should not have complementary regions.
+              decided to go ahead with PCR.
+</h2>         <h2 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Design</b>
+  <br>
+  Taking aid from Addgene’s handbook (plasmids 101) and their primer design website, we set out to design a plasmid with the following properties:
+  <ul class="list-disc ml-10">
+    <li>Length of 18-24 bases.</li>
+    <li>40-60% G/C content.</li>
+    <li>Start and end with 1-2 G/C pairs.</li>
+    <li>Melting temperature (Tm) of 50-60°C.</li>
+    <li>Primer pairs should have a Tm within 5°C of each other.</li>
+    <li>Primer pairs should not have complementary regions.</li>
+  </ul>
+</h2>
+<h2 class="bg-green-300 border-l-4 border-green-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Build</b>
+  <br>
+  The primer sequence was arrived at by using SnapGene.
+  <table class="text-sm">
+  <tr>
+    <th class="border border-black">Primers</th>
+    <th class="border border-black">Sequence</th>
+    <th class="border border-black">Tm (as predicted by Snapgene, in °C)</th>
+  </tr>
+  <tr>
+    <td class="border border-black">fwd CD36 without Restriction sites</td>
+    <td class="border border-black">GAATTCGCGGCCGCTTCTA</td>
+    <td class="border border-black">58</td>
+  </tr>
+  <tr>
+    <td class="border border-black">bkwd CD36 with Restriction sites (Spe1, Drd1)</td>
+    <td class="border border-black">TGACTCACTAGTCCACTCAGACTTTATTCAAAGACC</td>
+    <td class="border border-black">55</td>
+  </tr>
+  <tr>
+    <td class="border border-black">Bkwd IL8 without Restriction sites</td>
+    <td class="border border-black">ACTAGTGCCGCCCACTCAGA</td>
+    <td class="border border-black">58</td>
+  </tr>
+  <tr>
+    <td class="border border-black">Fwd IL8 without Restriction sites</td>
+    <td class="border border-black">GAATTCGCGGCCGCTTCTA</td>
+    <td class="border border-black">59</td>
+  </tr>
+</table>
 
-              <br />
-              Build:
-              <br />
-              The primer sequence were arrived at by using SnapGene
-              <br />
-              [TABLE]<br />
-              [IMG]<br />
-              Learn:
-              <br />
-              Snapgene cannot check for secondary structures and hence, we were
-              suggested to try out bioinformatics.org.
-              <br />
-              Test: (?ss)
-              <br />
-              The sequence was assessed using bioinformatics.org.
-              <br />
-              [IMG]
+<figure class="grid grid-cols-2 w-3/4 relative relative left-2/4 -translate-x-2/4 my-8">
+  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/pages-photos/engineering/primer1.jpg">
+  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/pages-photos/engineering/primer2.jpg">
+  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/pages-photos/engineering/primer3.jpg">
+  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/pages-photos/engineering/primer4.jpg">
+  <figcaption class="mt-2 text-sm">Melting points and other properties were analysed.</figcaption>
+</figure>
+</h2>
+<h2 class="bg-red-300 border-l-4 border-red-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Learn</b>
+  <br>
+  SnapGene cannot check for secondary structures, and hence, we were suggested to try out <a href="https://www.bioinformatics.org" class="underline">bioinformatics.org</a>.
+</h2>
+<br>
+<h2 class="bg-blue-300 border-l-4 border-blue-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Test</b>
+  <br>
+  The sequence was assessed using <a href="https://www.bioinformatics.org" class="underline">bioinformatics.org</a>.
+  <br>
+  <figure class="grid grid-cols-2 w-3/4 relative relative left-2/4 -translate-x-2/4 my-8">
+  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/pages-photos/engineering/primer5.jpg">
+  <figcaption class="mt-2 text-sm">Anti-IL8 primers</figcaption>
+</figure>
+  <figure class="grid grid-cols-2 w-3/4 relative relative left-2/4 -translate-x-2/4 my-8">
+  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/pages-photos/engineering/primer6.jpg">
+  <figcaption class="mt-2 text-sm">CD36 primers</figcaption>
+</figure>
+</h2>
+<h2 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Learn</b>
+  <br>
+  The primer sequence seems to be perfect for manufacturing, based on these online tools.
+</h2>
 
-              <br />
-              Learn:
-              <br />
-              The primer sequence seems to be perfect for manufacturing, based
-              on these online tools.
             </h2>
           </section>
           <section id="bb" ref="bb">
             <h1>Biobricks</h1>
 
             <h2>
-              [IMG]
+              <h2 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Design</b>
+  <br>
+  Can we scrap data from biobricks pages to generate descriptions?
+</h2>
+<h2 class="bg-green-300 border-l-4 border-green-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Build</b>
+  <br>
+  Write a script to scrape part pages and parse their content to extract a "description."
+</h2>
+<h2 class="bg-red-300 border-l-4 border-red-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Test</b>
+  <br>
+  A rule-based approach is not practical due to the variety of parts and the lack of consistency in parts pages.
+</h2>
+<h2 class="bg-blue-300 border-l-4 border-blue-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Learn</b>
+  <br>
+  We can use AI to create a more generalized solution in the absence of well-defined rules.
+</h2>
+<br>
+<h2 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Design</b>
+  <br>
+  Can we use few-shot learning to make LLMs?
+  Use the parts page summary as an input for generating descriptions?
+</h2>
+<h2 class="bg-green-300 border-l-4 border-green-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Build</b>
+  <br>
+  We select good and poor descriptions and use few-shot prompting using good descriptions and corresponding summaries to generate for poor descriptions.
+</h2>
+<h2 class="bg-red-300 border-l-4 border-red-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Test</b>
+  <br>
+  Since we were limited to open-sourced models like TS, the prompt space is too small for adding more than a couple of examples. Very unsatisfactory results due to noisy and repetitive completions.
+</h2>
+<h2 class="bg-blue-300 border-l-4 border-blue-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Learn</b>
+  <br>
+  We can fine-tune the model if few-shot prompting is not feasible.
+</h2>
+<br>
+<h2 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Design</b>
+  <br>
+  Can we fine-tune the model using “good” descriptions?
+</h2>
+<h2 class="bg-green-300 border-l-4 border-green-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Build</b>
+  <br>
+  We fine-tune the model with “good” descriptions and corresponding summaries.
+</h2>
+<h2 class="bg-red-300 border-l-4 border-red-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Test</b>
+  <br>
+  We get better results, but the output is still somewhat noisy and repetitive.
+</h2>
+<h2 class="bg-blue-300 border-l-4 border-blue-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Learn</b>
+  <br>
+  We should make the criteria for "good" less strict so that we have many more examples for fine-tuning.
+</h2>
+<br>
+<h2 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Design</b>
+  <br>
+  Can we use the part pages to directly generate descriptions?
+</h2>
+<h2 class="bg-green-300 border-l-4 border-green-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Build</b>
+  <br>
+  We use an LLM for summarizing the content from the parts pages.
+</h2>
+<h2 class="bg-red-300 border-l-4 border-red-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Test</b>
+  <br>
+  The quality of descriptions is poor since there is a lot of verbosity in the descriptions; many good descriptions are now worse.
+</h2>
+<br>
+<h2 class="bg-red-300 border-l-4 border-red-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Test</b>
+  <br>
+  The results obtained were improved in terms of relevance and coverage, based on feedback by team members.
+</h2>
+<h2 class="bg-blue-300 border-l-4 border-blue-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Learn</b>
+  <br>
+  We need more realistic data on what descriptions are good. This data can later also be used to train a model for reinforcement learning.
+</h2>
 
-              <br />
-              Latest “Test”: The results obtained were improved in terms of
-              relevance and coverage, based on feedback by team members.
-              <br />
-              Latest “Learn”: We need more realistic data on what descriptions
-              are good. This data can later also be used to train a model for
-              reinforcment learning.
             </h2>
           </section>
           <section id="te" ref="te">
             <h1>Toxicity Estimation</h1>
 
             <h2>
-              [IMG]
+              <h2 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Design</b>
+  <br>
+  Firstly, we decide what software to use and what toxicities to check. Collect all data regarding the proteins, including its mRNA sequence, components of the LNP, and relevant structural data.
+</h2>
+<h2 class="bg-green-300 border-l-4 border-green-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Build</b>
+  <br>
+  We decide on using toxicity estimation software tools. We try to input our components and check their toxicities.
+</h2>
+<h2 class="bg-red-300 border-l-4 border-red-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Test</b>
+  <br>
+  On trying to input, we first fail as the TEST does not present an option to enter our mRNA sequence. Further, we are unable to incorporate structural features of our protein and LNP.
+</h2>
+<h2 class="bg-blue-300 border-l-4 border-blue-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Learn</b>
+  <br>
+  We learn the limitations of the software and decide to break down our composite LNP-mRNA into its components and analyze them piecewise.
+</h2>
+<br>
+<h2 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Design</b>
+  <br>
+  We now look for programs that may analyze the toxicity of our protein/mRNA sequences. We find CSM-toxin as relevant software for our purpose.
+</h2>
+<h2 class="bg-green-300 border-l-4 border-green-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Build</b>
+  <br>
+  We input our mRNA sequence into CSM-Toxin. Meanwhile, we input various components of our LNPs into the TEST software to estimate individual toxicities.
+</h2>
+<h2 class="bg-red-300 border-l-4 border-red-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Test</b>
+  <br>
+  CSM-Toxin verifies that our protein is non-toxic. TEST reveals various results for components of our LNP in terms of immunogenicity, developmental toxicity, LD50, etc.
+</h2>
+<h2 class="bg-blue-300 border-l-4 border-blue-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Learn</b>
+  <br>
+  We see that TEST is unable to directly analyze some components of the LNP, and we must find similar, known components to analyze.
+</h2>
+<br>
+<h2 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Design</b>
+  <br>
+  We utilize TEST's existing database to find molecules similar to our LNP's components to analyze them.
+</h2>
+<h2 class="bg-green-300 border-l-4 border-green-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Build</b>
+  <br>
+  We run in-depth checks for all similar molecules.
+</h2>
+<h2 class="bg-red-300 border-l-4 border-red-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Test</b>
+  <br>
+  Similar molecules return a variety of results that we document and save on our Git-Repo.
+</h2>
+<h2 class="bg-blue-300 border-l-4 border-blue-800 pl-1 pr-1 pb-1 pt-1">
+  <b>Learn</b>
+  <br>
+  Despite individual analyses, TEST and CSM-Toxin fail to analyze the toxicity of our mRNA-LNP as a whole.
+</h2>
+
 
               <br />
               Beyond this, a plan remains to find more comprehensive ways to
