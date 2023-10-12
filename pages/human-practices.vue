@@ -745,7 +745,7 @@ Action: This ingenious solution would indeed have helped us get the preliminary 
             <h2>
                
 <figure class="max-w-lg relative relative left-2/4 -translate-x-2/4">
-  <img class="h-auto w-1/2 rounded-lg" src="hhttps://static.igem.wiki/teams/4829/wiki/awards/ihp/prajakta.jpeg" alt="image description">
+  <img class="h-auto w-1/2 rounded-lg" src="https://static.igem.wiki/teams/4829/wiki/awards/ihp/prajakta.jpeg" alt="image description">
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
 </figure> 
  
