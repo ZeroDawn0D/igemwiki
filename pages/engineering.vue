@@ -1083,7 +1083,7 @@ DSPC is the neutral lipid.
               <h2 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1">
   <b>Design</b>
   <br>
-  The standard procedure Camelization i.e. removal of the entirely of the sequence except the VH (Variable head), followed by the replacement of four hydrophobic with more hydrophilic amino acids to avoid the exposure of such a sizeable hydrophobic region to solvent, and other similar changes to increase stability. <a href="/modeling" class="underline">Link to modeling.</a>
+  The standard procedure Camelization i.e. removal of the entirely of the sequence except the VH (Variable head), followed by the replacement of four hydrophobic with more hydrophilic amino acids to avoid the exposure of such a sizeable hydrophobic region to solvent, and other similar changes to increase stability. <a href="/modelling" class="underline">Link to modeling.</a>
 </h2>
 <h2 class="bg-green-300 border-l-4 border-green-800 pl-1 pr-1 pb-1 pt-1">
   <b>Build</b>
