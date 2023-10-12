@@ -1264,7 +1264,11 @@
                 <br />
                 Optimization of IPTG concentrations for induction.
                 <br />
-                <a href="https://static.igem.wiki/teams/4829/wiki/pdf/protein-expression.pdf" class="underline">Link to protocol for optimization of protein expression.</a>
+                <a
+                  href="https://static.igem.wiki/teams/4829/wiki/pdf/protein-expression.pdf"
+                  class="underline"
+                  >Link to protocol for optimization of protein expression.</a
+                >
                 <br />
                 Plate to Primary culture of TG1 (OIL8 transformed)
                 <br />
@@ -1289,12 +1293,12 @@
               >
                 <b>08.07.23</b>
                 <br />
-                Secondary culture at 8:30 AM. 
-                <br>Timepoint for induction missed.
+                Secondary culture at 8:30 AM.
+                <br />Timepoint for induction missed.
                 <br />
-                Secondary culture in the evening. 
-                <br>Induction at 1 AM (OD=0.67).
-                <br>Transform BL21 for higher protein production.
+                Secondary culture in the evening.
+                <br />Induction at 1 AM (OD=0.67). <br />Transform BL21 for
+                higher protein production.
               </h2>
               <h2
                 class="bg-green-300 border-l-4 border-green-800 pl-1 pr-1 pb-1 pt-1"
@@ -1308,14 +1312,21 @@
               >
                 <b>11.07.2023</b>
                 <ul class="list-disc ml-10">
-    <li>Ran a Western blot.</li>
-    <li>Presence of protein seen, but signal extremely low.</li>
-    <li>Extremely low protein concentration in supernatant.
-        <figure class="grid grid-cols-1 w-3/4 relative left-2/4 -translate-x-2/4 my-8">
-            <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/pages-photos/notebook/1107gel.jpg" alt="image description">
-        </figure>
-    </li>
-</ul>
+                  <li>Ran a Western blot.</li>
+                  <li>Presence of protein seen, but signal extremely low.</li>
+                  <li>
+                    Extremely low protein concentration in supernatant.
+                    <figure
+                      class="grid grid-cols-1 w-3/4 relative left-2/4 -translate-x-2/4 my-8"
+                    >
+                      <img
+                        class="h-auto w-3/4"
+                        src="https://static.igem.wiki/teams/4829/wiki/pages-photos/notebook/1107gel.jpg"
+                        alt="image description"
+                      />
+                    </figure>
+                  </li>
+                </ul>
               </h2>
               <h2
                 class="bg-blue-300 border-l-4 border-blue-800 pl-1 pr-1 pb-1 pt-1"
@@ -1327,7 +1338,7 @@
                 <br />
                 Competency protocol starts from 2 PM (At OD around 0.4). Two
                 MCTs are stored in -80°C. Extracted plasmid quantified.
-                <br>
+                <br />
                 <b>13.07.23</b>
                 <br />
                 Transformation (from vial labelled iP3). Plated transformed
@@ -1376,26 +1387,45 @@
                 <b>20.07.2023</b>
                 <ul>
                   <li>New western blot done. Strong signal observed.</li>
-                  <li>The presence of substantial amount of protein confirmed.
-                    <figure class="grid grid-cols-1 w-3/4 relative left-2/4 -translate-x-2/4 my-8">
-                        <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/pages-photos/engineering/bact-blot.png" alt="image description">
+                  <li>
+                    The presence of substantial amount of protein confirmed.
+                    <figure
+                      class="grid grid-cols-1 w-3/4 relative left-2/4 -translate-x-2/4 my-8"
+                    >
+                      <img
+                        class="h-auto w-3/4"
+                        src="https://static.igem.wiki/teams/4829/wiki/pages-photos/engineering/bact-blot.png"
+                        alt="image description"
+                      />
                     </figure>
                   </li>
                 </ul>
                 <b>21.07.23</b>
                 <ul class="list-disc ml-10">
-                    <li>Tried ammonium sulfate precipitation on sample.</li>
-                    <li>Optimization by running the precipitation at 40%, 50%, 60%, 65%, and 70% saturated solutions.</li>
-                    <li>Good pellets observed in 60-70% range.</li>
-                    <li>Ran SDS-PAGE with all samples.
-                      <figure class="grid grid-cols-1 w-3/4 relative left-2/4 -translate-x-2/4 my-8">
-                            <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/pages-photos/engineering/gelammonium-sulp.jpg" alt="image description">
-                        </figure>
-                    </li>
-                    <li>Bands only at ~31kDa. Better than expected.</li>
-                    <li>Ammonium sulfate precipitation shall be done at 70% saturation</li>
+                  <li>Tried ammonium sulfate precipitation on sample.</li>
+                  <li>
+                    Optimization by running the precipitation at 40%, 50%, 60%,
+                    65%, and 70% saturated solutions.
+                  </li>
+                  <li>Good pellets observed in 60-70% range.</li>
+                  <li>
+                    Ran SDS-PAGE with all samples.
+                    <figure
+                      class="grid grid-cols-1 w-3/4 relative left-2/4 -translate-x-2/4 my-8"
+                    >
+                      <img
+                        class="h-auto w-3/4"
+                        src="https://static.igem.wiki/teams/4829/wiki/pages-photos/engineering/gelammonium-sulp.jpg"
+                        alt="image description"
+                      />
+                    </figure>
+                  </li>
+                  <li>Bands only at ~31kDa. Better than expected.</li>
+                  <li>
+                    Ammonium sulfate precipitation shall be done at 70%
+                    saturation
+                  </li>
                 </ul>
-
               </h2>
               <h2
                 class="bg-gray-300 border-l-4 border-gray-800 pl-1 pr-1 pb-1 pt-1"
@@ -1412,8 +1442,10 @@
                 <b>22.07.2023</b>
                 <br />
                 <ul class="list-disc ml-10">
-                  <li>Ammonium sulphate precipitation started, kept for overnight
-                incubation.</li>
+                  <li>
+                    Ammonium sulphate precipitation started, kept for overnight
+                    incubation.
+                  </li>
                 </ul>
               </h2>
               <h2
@@ -1421,11 +1453,15 @@
               >
                 <b>22.07.2023</b>
                 <ul class="list-disc ml-10">
-                  <li>POA: Repeated culturing of RFP transformed DH5α under the
-                hypothesis that with no antibiotic for selection, the plasmid
-                will slowly be lost.</li>
-                  <li>No change in OD after 3 sequential subcultures so untransformed
-                DH5α sourced from Sem 1 Lab.</li>
+                  <li>
+                    POA: Repeated culturing of RFP transformed DH5α under the
+                    hypothesis that with no antibiotic for selection, the
+                    plasmid will slowly be lost.
+                  </li>
+                  <li>
+                    No change in OD after 3 sequential subcultures so
+                    untransformed DH5α sourced from Sem 1 Lab.
+                  </li>
                 </ul>
               </h2>
               <h2
@@ -1433,51 +1469,68 @@
               >
                 <b>23.07.2023</b>
                 <ul class="list-disc ml-10">
-    <li>Protein pelleted at 5000rpm for 30 mins.</li>
-    <li>Samples dissolved in fresh buffer and then desalted to remove excess salts.</li>
-    <li>New column with Ni-NTA equilibrated with buffer, then kept for overnight binding with desalted sample.</li>
-</ul>
+                  <li>Protein pelleted at 5000rpm for 30 mins.</li>
+                  <li>
+                    Samples dissolved in fresh buffer and then desalted to
+                    remove excess salts.
+                  </li>
+                  <li>
+                    New column with Ni-NTA equilibrated with buffer, then kept
+                    for overnight binding with desalted sample.
+                  </li>
+                </ul>
 
                 <b>24.07.2023</b>
                 <ul class="list-disc ml-10">
-    <li>Protein purified in Tris-Cl pH 8.0 buffer.</li>
-    <li>Obtained elute E2 was desalted.</li>
-    <li>The protein concentration was checked using a nanodrop, was 2.42 mg/mL.</li>
-    <li>SDS-PAGE set up with all samples.</li>
-</ul>
-                
-                <b>25.07.2023</b> 
-                <ul class="list-disc ml-10">
-    <li>BLI performed on the purified sample using Ni-NTA tips.</li>
-    <li>Data obtained with large error due to the release of the protein from tips.</li>
-    <li>Decided to use PBS for eluting instead, since proteins usually have better stability in PBS.</li>
-</ul>
+                  <li>Protein purified in Tris-Cl pH 8.0 buffer.</li>
+                  <li>Obtained elute E2 was desalted.</li>
+                  <li>
+                    The protein concentration was checked using a nanodrop, was
+                    2.42 mg/mL.
+                  </li>
+                  <li>SDS-PAGE set up with all samples.</li>
+                </ul>
 
+                <b>25.07.2023</b>
+                <ul class="list-disc ml-10">
+                  <li>
+                    BLI performed on the purified sample using Ni-NTA tips.
+                  </li>
+                  <li>
+                    Data obtained with large error due to the release of the
+                    protein from tips.
+                  </li>
+                  <li>
+                    Decided to use PBS for eluting instead, since proteins
+                    usually have better stability in PBS.
+                  </li>
+                </ul>
               </h2>
               <h2
                 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1"
               >
-                <b>28.07.2023</b> <br>
-                Tests for viability of expired chloramphenicol stocks
-                using zone of clearance technique. Stock is viable.
+                <b>28.07.2023</b> <br />
+                Tests for viability of expired chloramphenicol stocks using zone
+                of clearance technique. Stock is viable.
               </h2>
               <h2
                 class="bg-blue-300 border-l-4 border-blue-800 pl-1 pr-1 pb-1 pt-1"
               >
-                <b>29.07.2023</b> 
+                <b>29.07.2023</b>
                 <ul class="list-disc ml-10">
-    <li>Protein purification is performed with spin columns.</li>
-    <li>PBS used for elution.</li>
-    <li>SDS-PAGE set up.</li>
-</ul>
+                  <li>Protein purification is performed with spin columns.</li>
+                  <li>PBS used for elution.</li>
+                  <li>SDS-PAGE set up.</li>
+                </ul>
 
-                
                 <b>31.07.2023 </b>
                 <ul class="list-disc ml-10">
-    <li>BLI performed on freshly purified sample.</li>
-    <li>Bad data from BLI, protein dissociated more in PBS compared to Tris-Cl buffer.</li>
-</ul>
-
+                  <li>BLI performed on freshly purified sample.</li>
+                  <li>
+                    Bad data from BLI, protein dissociated more in PBS compared
+                    to Tris-Cl buffer.
+                  </li>
+                </ul>
               </h2>
               <h2
                 class="bg-gray-300 border-l-4 border-gray-800 pl-1 pr-1 pb-1 pt-1"
@@ -1525,7 +1578,7 @@
               >
                 Improvements were made to the Biobricks registry entries using
                 Large Language Models and documentation of the same was made.
-                <br>
+                <br />
                 PK-sim software was found for working on PK modelling, and
                 tutorials for PK modelling were conducted.
               </h2>
@@ -1534,13 +1587,21 @@
               >
                 <b>09.08.23</b>
                 <ul class="list-disc ml-10">
-    <li>Thawing of cells - stir in 37°C bath for about 1 minute (quickly, since it contains DMSO).</li>
-    <li>Add 1 ml of the culture to the cells slowly and gently mix them.</li>
-    <li>Centrifuge at room temperature at 300g for 5 mins.</li>
-    <li>Add 2 ml of media to the pellet and resuspend.</li>
-    <li>Transfer to culturing flask and add 2 ml more of media to ensure complete transfer.</li>
-</ul>
-
+                  <li>
+                    Thawing of cells - stir in 37°C bath for about 1 minute
+                    (quickly, since it contains DMSO).
+                  </li>
+                  <li>
+                    Add 1 ml of the culture to the cells slowly and gently mix
+                    them.
+                  </li>
+                  <li>Centrifuge at room temperature at 300g for 5 mins.</li>
+                  <li>Add 2 ml of media to the pellet and resuspend.</li>
+                  <li>
+                    Transfer to culturing flask and add 2 ml more of media to
+                    ensure complete transfer.
+                  </li>
+                </ul>
               </h2>
               <h2
                 class="bg-pink-300 border-l-4 border-pink-800 pl-1 pr-1 pb-1 pt-1"
@@ -1554,14 +1615,27 @@
               >
                 <b>10.08.23</b>
                 <ul class="list-disc ml-10">
-    <li>Media will be turbid - growth of cells / contamination.</li>
-    <li>Media would have changed color - indicates metabolic activity (acidic products).</li>
-    <li>Transfer culture from a flask to falcon.</li>
-    <li>Cells are pelleted, then resuspended gently in 5 ml fresh media.</li>
-    <li>Count cells. If cells are unhealthy, use trypan blue while counting.</li>
-    <li>Make it 2x10^5 cells/ml, so 5 ml in flask will have approximately a million cells.</li>
-</ul>
-
+                  <li>
+                    Media will be turbid - growth of cells / contamination.
+                  </li>
+                  <li>
+                    Media would have changed color - indicates metabolic
+                    activity (acidic products).
+                  </li>
+                  <li>Transfer culture from a flask to falcon.</li>
+                  <li>
+                    Cells are pelleted, then resuspended gently in 5 ml fresh
+                    media.
+                  </li>
+                  <li>
+                    Count cells. If cells are unhealthy, use trypan blue while
+                    counting.
+                  </li>
+                  <li>
+                    Make it 2x10^5 cells/ml, so 5 ml in flask will have
+                    approximately a million cells.
+                  </li>
+                </ul>
               </h2>
               <h2
                 class="bg-pink-300 border-l-4 border-pink-800 pl-1 pr-1 pb-1 pt-1"
@@ -1575,12 +1649,14 @@
               >
                 <b>14.08.23</b>
                 <ul class="list-disc ml-10">
-    <li>Take 2 ml of culture and centrifuge.</li>
-    <li>Resuspend pellet in fresh media.</li>
-    <li>Count cells.</li>
-    <li>PMA helps in differentiation into macrophages. On adding PMA, mix well, since it tends to settle (contains DMSO).</li>
-</ul>
-
+                  <li>Take 2 ml of culture and centrifuge.</li>
+                  <li>Resuspend pellet in fresh media.</li>
+                  <li>Count cells.</li>
+                  <li>
+                    PMA helps in differentiation into macrophages. On adding
+                    PMA, mix well, since it tends to settle (contains DMSO).
+                  </li>
+                </ul>
               </h2>
             </section>
             <section id="august1" ref=" august1" class="pb-2">
@@ -1589,31 +1665,38 @@
                 class="bg-orange-300 border-l-4 border-orange-800 pl-1 pr-1 pb-1 pt-1"
               >
                 <b>15.08.23</b>
-                
+
                 <ul class="list-disc ml-10">
-    <li>Cells have adhered to the culture plate.</li>
-    <li>Remove media without touching the bottom. Wash cells gently with PBS.</li>
-    <li>Add fresh media.</li>
-    <li>Cells are ready for use after 24 hours.</li>
-</ul>
+                  <li>Cells have adhered to the culture plate.</li>
+                  <li>
+                    Remove media without touching the bottom. Wash cells gently
+                    with PBS.
+                  </li>
+                  <li>Add fresh media.</li>
+                  <li>Cells are ready for use after 24 hours.</li>
+                </ul>
               </h2>
               <h2
                 class="bg-yellow-300 border-l-4 border-yellow-800 pl-1 pr-1 pb-1 pt-1"
               >
-                <b>16.08.2023</b><br> InterLab protocols 2 and 3 completed.
+                <b>16.08.2023</b><br />
+                InterLab protocols 2 and 3 completed.
               </h2>
               <h2
                 class="bg-red-300 border-l-4 border-red-800 pl-1 pr-1 pb-1 pt-1"
               >
-                <b>21.08.2023</b><br> IVT done CD36 and CD36 control, with satisfactory
-                results.
+                <b>21.08.2023</b><br />
+                IVT done CD36 and CD36 control, with satisfactory results.
               </h2>
             </section>
             <section id="august1" ref=" august1" class="pb-2">
               <h3>Week 4</h3>
-              <h2 class="bg-pink-300 border-l-4 border-pink-800 pl-1 pr-1 pb-1 pt-1">
-                <b>26.08.2023 - 28.08.2023</b><br> Protein Expression protocol completed.
-                </h2>
+              <h2
+                class="bg-pink-300 border-l-4 border-pink-800 pl-1 pr-1 pb-1 pt-1"
+              >
+                <b>26.08.2023 - 28.08.2023</b><br />
+                Protein Expression protocol completed.
+              </h2>
               <h2
                 class="bg-gray-300 border-l-4 border-gray-800 pl-1 pr-1 pb-1 pt-1"
               >
@@ -1634,21 +1717,33 @@
                 <b>05.09.2023</b>
                 <br />
                 <ul class="list-disc ml-10">
-                  <li>Protein pellet purification using urea extraction was performed
-                in case the protein was localized in Inclusion Bodies (IBs).</li>
+                  <li>
+                    Protein pellet purification using urea extraction was
+                    performed in case the protein was localized in Inclusion
+                    Bodies (IBs).
+                  </li>
                 </ul>
                 <b>06.09.2023</b>
                 <ul class="list-disc ml-10">
-    <li>SDS-PAGE performed on the extracted pellet.
-        <figure class="grid grid-cols-1 w-3/4 relative left-2/4 -translate-x-2/4 my-8">
-            <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/pages-photos/notebook/0609gel.png" alt="SDS-PAGE image">
-        </figure>
-    <br>Lane 1 - Ladder.
-    <br>Lane 2 - Unpurified pellet.
-    <br>Lane 3 - Urea-extracted pellet.</li>
-    <li>Protein bands not observed. Extraction has not changed anything, protein probably absent.</li>
-</ul>
-
+                  <li>
+                    SDS-PAGE performed on the extracted pellet.
+                    <figure
+                      class="grid grid-cols-1 w-3/4 relative left-2/4 -translate-x-2/4 my-8"
+                    >
+                      <img
+                        class="h-auto w-3/4"
+                        src="https://static.igem.wiki/teams/4829/wiki/pages-photos/notebook/0609gel.png"
+                        alt="SDS-PAGE image"
+                      />
+                    </figure>
+                    <br />Lane 1 - Ladder. <br />Lane 2 - Unpurified pellet.
+                    <br />Lane 3 - Urea-extracted pellet.
+                  </li>
+                  <li>
+                    Protein bands not observed. Extraction has not changed
+                    anything, protein probably absent.
+                  </li>
+                </ul>
               </h2>
             </section>
             <section id="september1" ref=" september1" class="pb-2">
@@ -1704,8 +1799,10 @@
                 <b>06.10.2023</b>
                 <br />
                 Second Run of DLS, using the previous batch of LNPs.
-                <br>
-                We added 100 μL of LNP solution to HeLa cells with >90% confluency, and left them in the 	incubator for 6 hrs. No protein detected post transfection 
+                <br />
+                We added 100 μL of LNP solution to HeLa cells with >90%
+                confluency, and left them in the incubator for 6 hrs. No protein
+                detected post transfection
               </h2>
             </section>
             <section id="october1" ref=" october1" class="pb-2">
@@ -1716,15 +1813,24 @@
                 <b>09.10.2023</b>
                 <br />
                 Third Run of LNP conjugation and DLS.
-                <br>
-                We added 400 μL of LNP solution this time to HeLa cells with >90% confluency and left them in 	the incubator for 6 hrs. No protein was detected in the supernatant post-transfection, using a 	western blot.  
+                <br />
+                We added 400 μL of LNP solution this time to HeLa cells with
+                >90% confluency and left them in the incubator for 6 hrs. No
+                protein was detected in the supernatant post-transfection, using
+                a western blot.
               </h2>
               <h2
                 class="bg-blue-300 border-l-4 border-blue-800 pl-1 pr-1 pb-1 pt-1"
               >
                 <b>11.10.2023</b>
                 <br />
-                The third run of BLI was performed using protein extracted from transfected cells. We tried a new Ca 2+ assay using RAW cells at this point, to try and show the functionality of our antibody. However, the control wells showed the same fluorescence signal as all the other wells in the plate. Possibly the Fuo-4 AM we used was faulty, or the IL8 was not activating the RAW cells’ CXCR2 receptors. 
+                The third run of BLI was performed using protein extracted from
+                transfected cells. We tried a new Ca 2+ assay using RAW cells at
+                this point, to try and show the functionality of our antibody.
+                However, the control wells showed the same fluorescence signal
+                as all the other wells in the plate. Possibly the Fuo-4 AM we
+                used was faulty, or the IL8 was not activating the RAW cells’
+                CXCR2 receptors.
               </h2>
             </section>
           </section>
