@@ -1,3 +1,4 @@
+
 @import "tailwindcss/base";
 
 @import "tailwindcss/components";
@@ -5,6 +6,47 @@
 @import "tailwindcss/utilities";
 @import "halftone.css";
 
+@font-face{
+  font-family: ComicNue;
+  src: url("https://static.igem.wiki/teams/4829/wiki/fonts/comicneue-regular.ttf");
+}
+
+@font-face{
+  font-family: CourierPrime;
+  src: url(https://static.igem.wiki/teams/4829/wiki/fonts/courierprime-regular.ttf);
+}
+
+@font-face{
+  font-family: CourierPrimeBold;
+  src: url(https://static.igem.wiki/teams/4829/wiki/fonts/courierprime-bold.ttf);
+}
+@font-face{
+  font-family: ComicNueBold;
+  src: url("https://static.igem.wiki/teams/4829/wiki/fonts/comicneue-bold.ttf") ;
+}
+.comicnue{
+  font-family: comicnuebold;
+}
+.courierprime{
+  font-family: courierprime;
+}
+.courierprimebold{
+  font-family: courierprimebold;
+}
+
+
+mark{
+  background-color: transparent;
+  background-image: linear-gradient(to right,#c6bbff 50%,transparent 51%);
+  background-size: 210%;
+  background-position: right;
+  padding-left: 2px;
+  padding-right: 2px;
+  transition: background-position 0.5s;
+}
+mark:hover{
+  background-position: left;
+}
 @layer base {
   h1 {
     @apply text-5xl;
@@ -14,9 +56,9 @@
   }
   h3 {
     @apply text-3xl;
-    font-weight: bold;
     padding-bottom: 10px;
     color: #9e80ff;
+    
   }
   h2 {
     @apply text-xl;
@@ -32,7 +74,7 @@
     @apply text-2xl
   }
   h2 {
-    @apply text-xl;
+    @apply text-2xl;
 
     padding-bottom: 20px;
   }
@@ -47,6 +89,7 @@
 html{
   overflow-y: scroll;
   overflow-x: hidden;
+  font-size: 2vh;
 }
 
 
@@ -59,4 +102,73 @@ html{
     padding:1em;
     line-height:1.5em;
     border:solid 5px;
+}
+
+.comic-border{
+  border-radius: 50px 25px 15px 25px/25px 50px 25px 25px;
+  border:solid 5px;
+}
+
+
+
+
+.wireframe span{
+  display: block;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  background: #FFF;
+}
+
+.wireframe{
+  box-sizing: border-box;
+  width: fit-content;
+  position: relative;
+  margin-right: 10px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 #000;
+  transition: padding 0.1s, box-shadow 0.1s, top 0.1s;
+  background-image: url('data:image/gif;base64,R0lGODlhBAAEAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjEgNjQuMTQwOTQ5LCAyMDEwLzEyLzA3LTEwOjU3OjAxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgV2luZG93cyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5NUY1OENCRDdDMDYxMUUyOTEzMEE1MEM5QzM0NDVBMyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5NUY1OENCRTdDMDYxMUUyOTEzMEE1MEM5QzM0NDVBMyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjk1RjU4Q0JCN0MwNjExRTI5MTMwQTUwQzlDMzQ0NUEzIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjk1RjU4Q0JDN0MwNjExRTI5MTMwQTUwQzlDMzQ0NUEzIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAQAAAQAsAAAAAAQABAAAAgYEEpdoeQUAOw==');
+}
+
+.wireframe:active{
+  top: 4px;
+  padding-bottom: 0px;
+  box-shadow: 0 1px #000;
+}
+
+.wireframe:hover{
+  box-shadow: 0 2px 0 #000, 0 2px 0px 2px #f03755;
+}
+
+
+.wireframe2 span{
+  display: block;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  background: #FFF;
+}
+
+.wireframe2{
+  box-sizing: border-box;
+  width: fit-content;
+  position: relative;
+  margin-right: 10px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 #000;
+  transition: padding 0.1s, box-shadow 0.1s, top 0.1s;
+  background-image: url('data:image/gif;base64,R0lGODlhBAAEAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjEgNjQuMTQwOTQ5LCAyMDEwLzEyLzA3LTEwOjU3OjAxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgV2luZG93cyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5NUY1OENCRDdDMDYxMUUyOTEzMEE1MEM5QzM0NDVBMyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5NUY1OENCRTdDMDYxMUUyOTEzMEE1MEM5QzM0NDVBMyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjk1RjU4Q0JCN0MwNjExRTI5MTMwQTUwQzlDMzQ0NUEzIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjk1RjU4Q0JDN0MwNjExRTI5MTMwQTUwQzlDMzQ0NUEzIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAQAAAQAsAAAAAAQABAAAAgYEEpdoeQUAOw==');
+}
+
+.wireframe2:active{
+  top: 4px;
+  padding-bottom: 0px;
+  box-shadow: 0 1px #000;
+}
+
+.wireframe2:hover{
+  box-shadow: 0 2px 0 #000, 0 3px 0px 3px #9e80ff;
 }

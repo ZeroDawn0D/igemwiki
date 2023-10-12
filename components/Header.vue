@@ -11,7 +11,7 @@ export default {
   },
   head() {
     return {
-      title: this.title + " | Patras Medicine - iGEM 2022"
+      title: this.title + " | IISc - iGEM 2023"
     }
   }
 }

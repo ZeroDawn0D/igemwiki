@@ -2,8 +2,7 @@
   background-image: linear-gradient(#3e347e, #9e80ff);
 }
 .halftone{
-  --dotSize: 0.7rem;
-  --bgSize: 1rem;
+  --bgSize: 8px;
   --bgPosition: calc(var(--bgSize) / 2);
   position: relative;
   --stop1:  0.1rem;
@@ -27,8 +26,13 @@
       transparent var(--stop2)
     );
   background-size: var(--bgSize) var(--bgSize);
-  background-position: 0 0, var(--bgPosition) var(--bgPosition);
-
+  /*background-position: 0 0, var(--bgPosition) var(--bgPosition);
+*/
   mask-image: linear-gradient( 340deg, rgb(0 0 0), rgb(0 0 0 / 0.3));
 
+  transition: background-size 0.2s ease-in-out, background-position 0.2s ease-in-out;
+}
+
+.halftone:hover{
+  --bgSize:  32px;
 }

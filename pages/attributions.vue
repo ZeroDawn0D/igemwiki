@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class = "halftone-wrapper">
-      <div class = "h-64 halftone text-black font-bold text-9xl max-md:text-6xl max-md:h-32">
+    <div class = "">
+      <div class = "courierprimebold h-64 w-screen text-black font-bold text-9xl max-md:text-6xl max-md:h-32">
         ATTRIBUTIONS
       </div>
     </div>
