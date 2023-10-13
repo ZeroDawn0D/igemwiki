@@ -100,11 +100,13 @@
       <div>
         We designed an mRNA-based therapy that blocks the chemokine interleukin-8 (CXCL8), which has been proven to promote the progression of endometriosis.
       </div>
+      <NuxtLink to="/description">
       <div class = "mt-4 wireframe2 relative left-2/4 -translate-x-2/4">
         <span class = "text-4xl courierprime cursor-pointer">
           Learn More
         </span>
     </div>
+  </NuxtLink>
     </div>
 
 

@@ -5,31 +5,38 @@
         EDUCATION
       </div>
     </div>
-<div class = "text-lg w-3/4" >
-“Nothing in science has any value to society if it is not communicated."  
-
-Anne Roe, American clinical psychologist and researcher 
-
+<div class = "text-lg w-3/4 text-justify relative left-2/4 -translate-x-2/4" >
+<mark class =  "courierprimebold text-lg">“Nothing in science has any value to society if it is not communicated."  </mark>
+<br>
+-<span class = "courierprimebold">Anne Roe, American clinical psychologist and researcher </span>
+<br><br>
 MetraMorpheus brings together synthetic biology and endometriosis. As we started our interactions with people outside the scientific circle, we realised that there was widespread ignorance to both these aspects. In order to gauge the situation better, we conducted multiple surveys, following the guidelines laid down by iGEM.  
 
- 
+ <br><br>
 
 The results showed that only 37% and 6.3% of people have heard about synthetic biology and endometriosis respectively.  Among the 37% of respondents knowing about synthetic biology, most are in the age group of 19-23 i.e., college students. Among the school students, this falls to a mere 16.5%.  
+<br><br>
+<figure class="grid grid-cols-2 relative relative left-2/4 -translate-x-2/4">
+  <img class="h-auto w-1/2 rounded-lg" src="https://static.igem.wiki/teams/4829/wiki/awards/education/form1b.png" alt="image description">
+  <img class="h-auto w-1/2 rounded-lg" src="https://static.igem.wiki/teams/4829/wiki/awards/education/form2b.png" alt="image description">
+</figure>
 
+
+<br><br>
 Our core belief is that everyone, regardless of age or level of education, should have the opportunity to get informed about global challenges and the development of new technologies applied to solve them. Thus, we as the iGEM IISc team felt the responsibility to take meaningful action. We wanted to leave a lasting impact on the community by trying to bridge the gap between the ivory towers of research and the general public.  
-
-Hence, we valued education very highly in our project, with efforts directed towards both the themes, while trying to ensure mutual learning afterward. The biggest challenge here was to reach and include everyone in this discussion. Having a variety of educational tools appeared essential to us, as well as adopting a language accessible to a wide audience.  
+<br><br>
+Hence, we valued education very highly in our project, with efforts directed towards both the themes, while trying to ensure mutual learning afterward. The biggest challenge here was to reach and include everyone in this discussion. Having a variety of educational tools appeared essential to us, as well as adopting a language accessible to a wide audience. 
    
 </div>
     
 
-    <div @click= "synbio=true; console.log(synbio)" class = "mt-4 wireframe2 relative left-2/4 -translate-x-2/4">
+    <div @click= "synbio=true; console.log(synbio); " class = "mt-4 wireframe2 relative left-2/4 -translate-x-2/4">
         <span class = "text-4xl courierprime cursor-pointer">
           Synthetic Biology
         </span>
     </div>
 
-    <div @click = "synbio=false; console.log(synbio)" class = "mt-4 wireframe2 relative left-2/4 -translate-x-2/4">
+    <div @click = "synbio=false; console.log(synbio); " class = "mt-4 wireframe2 relative left-2/4 -translate-x-2/4">
         <span class = "text-4xl courierprime cursor-pointer">
           Endometriosis Awareness
         </span>
@@ -38,78 +45,78 @@ Hence, we valued education very highly in our project, with efforts directed tow
     <Scrollspy class = "ss-synbio" :currentPage="currentPage" initialSection="bc">
       <div class = "grid grid-cols-12 gap-4 p-8">
         <div class = "col-span-3 max-md:hidden">
-          <nav class = "sticky top-16 border-r-8 py-8" >
+          <nav class = "overflow-auto h-screen sticky top-16 border-r-8 py-8" >
             <ul>
               <li>
-                <div class = "class-bc cursor-pointer text-2xl" ref = "bcButton">Biotechnology in Curricula</div>
+                <div class = "class-bc cursor-pointer text-lg" ref = "bcButton">Biotechnology in Curricula</div>
               </li>
 
               <li>
-                <div class = "class-nbd cursor-pointer text-2xl" ref = "nbdButton">National Biotechnology Day</div>
+                <div class = "class-nbd cursor-pointer text-lg" ref = "nbdButton">National Biotechnology Day</div>
               </li>
 
               <li>
-                <div class = "class-od cursor-pointer text-2xl" ref = "odButton">Open Day</div>
+                <div class = "class-od cursor-pointer text-lg" ref = "odButton">Open Day</div>
               </li>
 
               <li>
-                <div class = "class-carv cursor-pointer text-2xl" ref = "carvButton">Carvaan</div>
+                <div class = "class-carv cursor-pointer text-lg" ref = "carvButton">Carvaan</div>
               </li>
               <li>
-                <div class = "class-sv cursor-pointer text-2xl" ref = "svButton">School Visits</div>
+                <div class = "class-sv cursor-pointer text-lg" ref = "svButton">School Visits</div>
               </li>
               <li>
-                <div class = "class-sc cursor-pointer text-2xl" ref = "scButton">Science Camp</div>
+                <div class = "class-sc cursor-pointer text-lg" ref = "scButton">Science Camp</div>
               </li>
               <li>
-                <div class = "class-wsb cursor-pointer text-2xl" ref = "wsbButton">Workshop on Synthetic Biology</div>
+                <div class = "class-wsb cursor-pointer text-lg" ref = "wsbButton">Workshop on Synthetic Biology</div>
               </li>
               <li>
-                <div class = "class-ij cursor-pointer text-2xl" ref = "ijButton">Interaction with Juniors</div>
+                <div class = "class-ij cursor-pointer text-lg" ref = "ijButton">Interaction with Juniors</div>
               </li>
               <li>
-                <div class = "class-dle cursor-pointer text-2xl" ref = "dleButton">Databased Launch Event</div>
+                <div class = "class-dle cursor-pointer text-lg" ref = "dleButton">Databased Launch Event</div>
               </li>
               <li>
-                <div class = "class-rdl cursor-pointer text-2xl" ref = "rdlButton">Rising Dry Lab</div>
+                <div class = "class-rdl cursor-pointer text-lg" ref = "rdlButton">Rising Dry Lab</div>
               </li>
               <li>
-                <div class = "class-hrp cursor-pointer text-2xl" ref = "hrpButton">How to read papers</div>
+                <div class = "class-hrp cursor-pointer text-lg" ref = "hrpButton">How to read papers</div>
               </li>
               <li>
-                <div class = "class-quiz cursor-pointer text-2xl" ref = "quizButton">Synbio Quiz</div>
+                <div class = "class-quiz cursor-pointer text-lg" ref = "quizButton">Synbio Quiz</div>
               </li>
               <li>
-                <div class = "class-verse cursor-pointer text-2xl" ref = "verseButton">Into the iGEMverse</div>
+                <div class = "class-verse cursor-pointer text-lg" ref = "verseButton">Into the iGEMverse</div>
               </li>
               <li>
-                <div class = "class-symp cursor-pointer text-2xl" ref = "sympButton">iGEM Symposium</div>
+                <div class = "class-symp cursor-pointer text-lg" ref = "sympButton">iGEM Symposium</div>
               </li>
               <li>
-                <div class = "class-wiki cursor-pointer text-2xl" ref = "wikiButton">New Wikipedia Page on Aptides</div>
+                <div class = "class-wiki cursor-pointer text-lg" ref = "wikiButton">New Wikipedia Page on Aptides</div>
               </li>
               <li>
-                <div class = "class-radio cursor-pointer text-2xl" ref = "radioButton">Yuvavani on All India Radio</div>
+                <div class = "class-radio cursor-pointer text-lg" ref = "radioButton">Yuvavani on All India Radio</div>
               </li>
               <li>
-                <div class = "class-broch cursor-pointer text-2xl" ref = "brochButton">Brochures and Articles</div>
+                <div class = "class-broch cursor-pointer text-lg" ref = "brochButton">Brochures and Articles</div>
               </li>
               <li>
-                <div class = "class-lang cursor-pointer text-2xl" ref = "langButton">Language Project</div>
+                <div class = "class-lang cursor-pointer text-lg" ref = "langButton">Language Project</div>
               </li>
               <li>
-                <div class = "class-game cursor-pointer text-2xl" ref = "gameButton">Synbio Games</div>
+                <div class = "class-game cursor-pointer text-lg" ref = "gameButton">Synbio Games</div>
               </li>
               <li>
-                <div class = "class-acti cursor-pointer text-2xl" ref = "actiButton">Activity Sheets</div>
+                <div class = "class-acti cursor-pointer text-lg" ref = "actiButton">Activity Sheets</div>
               </li>
               <li>
-                <div class = "class-infor cursor-pointer text-2xl" ref = "inforButton">Informative Videos</div>
+                <div class = "class-infor cursor-pointer text-lg" ref = "inforButton">Informative Videos</div>
               </li>
 
 
               <li>
-                <div  class = "class-prot cursor-pointer text-2xl" ref = "protButton">Video Protocols</div>
+                <div  class = "class-prot cursor-pointer text-lg" ref = "protButton">Video Protocols</div>
               </li>
             </ul>
           </nav>  
@@ -137,7 +144,7 @@ However, knowledge about synthetic biology was less, as mentioned above. We also
 <br /><br />
 Hence we prepared a detailed recommendation, and met the secretaries of education in Jharkhand, Shri K Ravi Kumar, and Karnataka, Sri Ritesh Kumar Singh, submitting it. We are now assisting Jharkhand Government’s Council of Educational Research & Training to form their curriculum for the next session, including biotechnology in multiple chapters. Our proposal was also taken by iGEM IITD team to Mrs. Ranjana Arora, Committee member at the National Council of Educational Research & Training, where she assured us of action in the coming months.  
 
- <figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+ <figure class="grid grid-cols-2 relative relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4 " src="https://static.igem.wiki/teams/4829/wiki/awards/education/education-secretaries/govt2.jpg " alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/education-secretaries/govt1.jpg " alt="image description">
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Team members Sheersh Sen and Shloak Vatsal meeting with the education secretaries of Karnataka and Jharkhand.</figcaption>
@@ -170,7 +177,7 @@ To gather support for the idea, we launched a campaign on [Change org], gatherin
 
 We also released simplified versions of government documents on biotechnology, making it more accessible and bringing it to the forefront of people’s consciousness. We hope that the movement we started as part of our project bears fruits for science in the country and across the world.  
 
- <figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+ <figure class=" grid grid-cols-2 relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4 " src="https://static.igem.wiki/teams/4829/wiki/awards/education/education-secretaries/change-ss.jpeg " alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/education-secretaries/pbti-ceo.jpg" alt="image description">
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Our poster for the Biotechnology Day Petition; Our team member Aditya meeting with the CEO of PBTI and director of BBC.</figcaption>
@@ -194,10 +201,9 @@ We also released simplified versions of government documents on biotechnology, m
             <h2>
               Our first outreach event was the IISc Open Day 2023, organised on the 4th of March. We set up a booth, in collaboration with Naturalists, and talked about various things, including Synthetic Biology, iGEM, and The Central Dogma. It was our first experience with event management and a great learning in engaging both children and parents.  
 
- <figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+ <figure class=" grid grid-cols-2  relative relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4 " src="https://static.igem.wiki/teams/4829/wiki/awards/education/openday/openday1.jpg" alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/openday/openday2.jpg" alt="image description">
-  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/openday/openday3.jpg " alt="image description">
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Some shots from the iGEM stall at the IISc Open Day.</figcaption>
 </figure> 
 
@@ -211,15 +217,13 @@ We also released simplified versions of government documents on biotechnology, m
             <h2>
               We used the experience gained at the Open Day to launch a grand pan-India collaboration. Associating with Pravega, our college fest, we organized Carvaan in 8 Indian cities , where we invited multiple teams from across the country to present their project and synbio concepts to a large audience. Amidst the electrifying atmosphere, iGEM stalls dedicated to the field of synthetic biology stood as a beacon of scientific innovation and discovery. 
 
-<figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+<figure class=" grid grid-cols-2 relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/carvaan/carvaanbhub3.jpg " alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/carvaan/carvaanblr1.jpg " alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/carvaan/carvaanblr2.jpg " alt="image description">
-  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/carvaan/carvaanblr3.jpg " alt="image description">
 
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/carvaan/carvaanblr6.jpg " alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/carvaan/carvaanblr8.jpg " alt="image description">
-  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/carvaan/carvaanposter.jpg " alt="image description">
 
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">iGEM IISc team at Carvaan.</figcaption>
 </figure> 
@@ -237,18 +241,16 @@ We also released simplified versions of government documents on biotechnology, m
 During the presentations, we realised that we also needed to provide them practical experience to quench the curiosity of children. 
 
  
- <figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+ <figure class=" grid grid-cols-2 relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/school-visits/20230802-115800.jpg " alt="image description">
-  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/school-visits/20230802-121701.jpg " alt="image description">
-  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/school-visits/img-20230624-wa0038.jpg" alt="image description">
-  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/school-visits/img-20230624-wa0052.jpg" alt="image description">
+  
 
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/school-visits/img-20230624-wa0053.jpg  " alt="image description">
-  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/school-visits/img-20230626-165654016.jpg " alt="image description">
+
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/school-visits/img-20230626-170637738.jpg" alt="image description">
-  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/school-visits/img-20230626-171041845.jpg " alt="image description">
+  
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/school-visits/img-20230630-wa0014.jpg " alt="image description">
-  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/school-visits/img-20230630-wa0038.jpg " alt="image description">
+
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/school-visits/whatsapp-image-2023-07-15-at-18-44-23.jpeg " alt="image description">
 
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
@@ -298,8 +300,7 @@ The lab exhibits included exhibits and experiments suited for various age groups
 <br /><br />
 Organising the event proved to be a major lesson for us, and our experience from the Open Day and Carvaan helped to make it a great success, with positive feedback from all attendees. However we felt that we should invite undergraduate students too, as they can get more involved in the lab, and actually undertake these experiments in a more formal setting. 
 
-<figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
-  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/summer-camp/shloaktalk.jpg" alt="image description">
+<figure class=" grid grid-cols-2 relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/summer-camp/instapost-01-summercamp.png" alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/summer-camp/instapost-03-summercamp.png " alt="image description">
 
@@ -335,7 +336,7 @@ Organising the event proved to be a major lesson for us, and our experience from
             <h2>
               We then invited undergraduate students from Bengaluru to a workshop on synthetic biology on 13th August. We trained them in basic lab techniques of streaking and spreading, and synbio lab techniques of bacterial transformation and mammalian cell transfection. We also demonstrated various protocols used by us including protein purification and IVT.  
 
-<figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+<figure class=" grid grid-cols-2 relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/synbio-workshop/synbio-workshop.jpg" alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/synbio-workshop/workshop.png " alt="image description">
 
@@ -357,7 +358,7 @@ Organising the event proved to be a major lesson for us, and our experience from
 It has helped them start brainstorming 2 months ahead of us, and we hope would translate into greater success. We also decided to include them in certain tasks to make them familiar with the various aspects of a project. 
 
 
-<figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+<figure class=" grid grid-cols-2 relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/junior-interaction/orn1.jpg" alt="image description">
 
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/junior-interaction/orn3.png " alt="image description">
@@ -373,7 +374,7 @@ It has helped them start brainstorming 2 months ahead of us, and we hope would t
             <h2>
               Databased is the UG CS club of IISc, run by the students of the B.Tech. program. During their launch, to attract B.Tech. students into iGEM, we presented the dry lab aspect of our project in great detail. It was aimed to include people with a new expertise into the iGEM ecosystem at IISc. The event was a big success with multiple freshers applying for our “Rising Dry Lab” program.  
 
-<figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+<figure class=" relative relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/databased-launch/databased-launch.jpeg " alt="image description">
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
 </figure> 
@@ -394,7 +395,7 @@ It has helped them start brainstorming 2 months ahead of us, and we hope would t
             </h1>
             <h2>
 In order to help freshmen get acquainted with problem-solving in synthetic biology, we ran a “Rising Dry Lab” program where we recruited 5-8 first year students. These students worked closely with the Dry Lab team to get introduced to important topics like protein modeling, pharmacokinetic modeling, documentation, software reproducibility, etc., and received handholding and guidance in terms of material, directions and examples. Eventually, these students were involved in wrapping up some of the ongoing tasks in the Dry Lab team and most of them were able to make concrete contributions to both the documentation and even to some of the modeling or other software-related aspects. Most of these students are from a mathematics and computing background, which is often underrepresented in iGEM teams – we hope that this effort at inclusivity will enable the future iGEM teams to leverage technology in a much better way. 
-<figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+<figure class=" relative relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/rising-dry-lab/rising-dry-lab.jpg" alt="image description">
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
 </figure> 
@@ -411,7 +412,7 @@ In order to help freshmen get acquainted with problem-solving in synthetic biolo
 One of the most important skills in the research course is the ability to read scientific papers. iGEM IISc, collaborating with Naturalists, organised a guidance session on how to read papers on 25th August.  
 <br><br>
 For the people interested in joining iGEM next year, we then provided simple papers to read, learning about various advances in the fields, and the ability to identify problems.  
-<figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+<figure class=" relative relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/read-paper/haw-paper-read.jpeg" alt="image description">
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
 </figure> 
@@ -425,7 +426,7 @@ For the people interested in joining iGEM next year, we then provided simple pap
             <h2>
               While organising the above events, we realised iGEM is limited to UGs only at IISc. Hence, we organised a quiz in collaboration with the Quiz Club of IISc. With over 100 participants and 40 teams, the event was a great success, popularising iGEM into various circles of the institution. The questions were sourced from concepts and historic developments in biotechnology.  
 
-<figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+<figure class=" grid grid-cols-2 relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/quiz-synbio/quiz.png " alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/quiz-synbio/synbio-quiz.jpg" alt="image description">
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
@@ -438,10 +439,6 @@ For the people interested in joining iGEM next year, we then provided simple pap
               Into the iGEMverse
             </h1>
             <h2>
-              <figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
-  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/igemverse/screenshot-2023-09-03-214653.jpg" alt="image description">
-  <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
-</figure>
 
 Our survey on SynBio had shown that many people do not know about iGEM, even if they have heard about synbio. Our team was also approached by many people in graduate biotechnology courses across the country, whose teams do not participate in iGEM. Being such an important platform for the development of synbio, we felt that more people would be empowered to contribute to synbio upon knowing about iGEM. Hence, we planned a series of 3 talk shows by past iGEMers and representatives to spread awareness about the same. 
 
@@ -454,7 +451,7 @@ Shreya Kulkarni, iGEM Startups, “Prospects after iGEM”
 Jeevan Subodh, iGEM Ambassador, “How to start a new iGEM team” 
 <br>
 
-<figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+<figure class=" relative relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/igemverse/igemverse.png " alt="image description">
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
 </figure>
@@ -483,7 +480,7 @@ Team Presentation by the IISc iGEM team
 We plan to make this an yearly ritual, where teams from that year would explain their project in the symposium. 
 <br />
 
-<figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+<figure class=" relative relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/symposium/symposium-a4.png" alt="image description">
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
 </figure>
@@ -499,7 +496,7 @@ We plan to make this an yearly ritual, where teams from that year would explain 
             <h2>
               While looking for specific targeting peptides, we found about aptides. However, the published research is scattered across various journals. To help future researchers find and utilise this great tool easily, we made a Wikipedia page, compiling exhaustively the published work in the field. We also created an informative video on the topic. 
 
-<figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+<figure class=" relative relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/aptides-wikipedia/whatsapp-image-2023-10-12-at-03-11-52.jpg " alt="image description">
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
 </figure>
@@ -513,7 +510,7 @@ We plan to make this an yearly ritual, where teams from that year would explain 
             <h2>
               Yuvavani is a program on All India Radio, the public radio broadcaster of India, where they discuss issues of importance to the youth of the country. We contacted them and talked about the introduction to a life in research and synthetic biology in their show. The explanation was a new challenge since we didn’t have slides visualising our words, and hence we had to simplify it down. 
 
-<figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+<figure class=" relative relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/yuvavani/yuvavani.jpeg " alt="image description">
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
 </figure>
@@ -558,8 +555,8 @@ We also got featured on the <a href = "https://kernel.iisc.ac.in/the-race-to-rem
 Our team contributed significantly to the newsletter of Naturalists, the Biology Club of IISc, with articles explaining alternative ideas we had during the brainstorming, namely Virovory and Biofilm Inhibition, and an Introduction to Synthetic Biology and iGEM. 
 <br /><br />
 
-<figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
-  <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/brochure-articles/kernel-homepage.jpg " alt="image description">
+<figure class=" relative relative left-2/4 -translate-x-2/4 my-8">
+  <img class="h-auto w-screen" src="https://static.igem.wiki/teams/4829/wiki/awards/education/brochure-articles/kernel-homepage.jpg " alt="image description">
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Front page of Kernel</figcaption>
 </figure>
 
@@ -570,20 +567,12 @@ Our team contributed significantly to the newsletter of Naturalists, the Biology
 
 <div @click = "() => {pdf('natur')}" class = "mt-4 wireframe2 relative left-2/4 -translate-x-2/4">
         <span class = "hidden text-4xl courierprime cursor-pointer">
-          Synthetic Biology
+          Naturalists Article
         </span>
     </div>
-    <img id = "natur" src = "https://static.igem.wiki/teams/4829/wiki/awards/education/brochure-articles/naturalist.png " class = "w-screen">
+    <img id = "natur" src = "https://static.igem.wiki/teams/4829/wiki/awards/education/brochure-articles/naturalist.png " class = " hidden w-screen">
 
 
-
-<div @click = "() => {pdf('endofinal-dropdown')}" class = "mt-4 wireframe2 relative left-2/4 -translate-x-2/4">
-        <span class = "text-4xl courierprime cursor-pointer">
-          Endometriosis Brochure
-        </span>
-    </div>
-    <iframe id = "endofinal-dropdown" class = "hidden w-3/4 aspect-square relative left-2/4 -translate-x-2/4 "  src = "https://static.igem.wiki/teams/4829/wiki/awards/education/brochure-articles/endometriosis-final-brochure.pdf" >
-    </iframe>
 
             </h2>
           </section>
@@ -643,7 +632,7 @@ Brochures:
             </h1>
             <h2>
 
-<figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+<figure class=" relative relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/synbio-games/instapost-03-summercamp.png " alt="image description">
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
 </figure> 
@@ -672,7 +661,7 @@ Using the feedback received in school visits, we modified popular games like UNO
             <h2>
               To engage students in junior classes, we created activity sheet consisting of colouring activities, matching DNA fragments to amino acid sequences, etc. We distributed them in government schools around Bengaluru with the help of NoteBook Drive, a student run body at IISc. Our members also visited these schools and taught origami and thumb painting to these students. 
 
-<figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+<figure class=" grid grid-cols-2 relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/nbd/nbd.jpg " alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/nbd/nbd-2.jpg " alt="image description">
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
@@ -750,7 +739,10 @@ Using the feedback received in school visits, we modified popular games like UNO
         </span>
     </div>
 
-<iframe id = "vidprot" class  = "hidden" title="IISc-Bengaluru: Bacterial Transformation Protocol (2023) [English]" width="560" height="315" src="https://video.igem.org/videos/embed/77188c90-ec36-4c7b-ac5b-461321651789" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe> 
+<div id= "vidprot" class = "hidden">
+<iframe  title="IISc-Bengaluru: Bacterial Transformation Protocol (2023) [English]" width="560" height="315" src="https://video.igem.org/videos/embed/77188c90-ec36-4c7b-ac5b-461321651789" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+<iframe title="IISc-Bengaluru: Competency Protocol (2023) [English]" width="560" height="315" src="https://video.igem.org/videos/embed/9edbe141-86e7-4ea1-95c5-7ba43c4bac86" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+</div>
             </h2>
           </section>
               
@@ -766,31 +758,31 @@ Using the feedback received in school visits, we modified popular games like UNO
           <nav class = "sticky top-16 border-r-8 py-8" >
             <ul>
               <li>
-                <div class = "class-endo cursor-pointer text-2xl" ref = "endoButton">Understanding Endometriosis</div>
+                <div class = "class-endo cursor-pointer text-lg" ref = "endoButton">Understanding Endometriosis</div>
               </li>
               <li>
-                <div  class = "class-inter cursor-pointer text-2xl" ref = "interButton">DD Interview</div>
-              </li>
-
-              <li>
-                <div  class = "class-masc cursor-pointer text-2xl" ref = "mascButton">Mascot Competition</div>
+                <div  class = "class-inter cursor-pointer text-lg" ref = "interButton">DD Interview</div>
               </li>
 
               <li>
-                <div  class = "class-infpo cursor-pointer text-2xl" ref = "infpoButton">Informative Posts</div>
+                <div  class = "class-masc cursor-pointer text-lg" ref = "mascButton">Mascot Competition</div>
+              </li>
+
+              <li>
+                <div  class = "class-infpo cursor-pointer text-lg" ref = "infpoButton">Informative Posts</div>
               </li>
 
 
               <li>
-                <div  class = "class-wymp cursor-pointer text-2xl" ref = "wympButton">Symposium on Women's Health</div>
+                <div  class = "class-wymp cursor-pointer text-lg" ref = "wympButton">Symposium on Women's Health</div>
               </li>
 
               <li>
-                <div  class = "class-collab cursor-pointer text-2xl" ref = "collabButton">Collaborative Publication with UZurich</div>
+                <div  class = "class-collab cursor-pointer text-lg" ref = "collabButton">Collaborative Publication with UZurich</div>
               </li>
 
               <li>
-                <div  class = "class-brochu cursor-pointer text-2xl" ref = "brochuButton">Brochure on Endometriosis</div>
+                <div  class = "class-brochu cursor-pointer text-lg" ref = "brochuButton">Brochure on Endometriosis</div>
               </li>
 
             </ul>
@@ -843,7 +835,7 @@ Using the feedback received in school visits, we modified popular games like UNO
               DD Interview
             </h1>
             <h2>
-              <figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+              <figure class=" relative relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/doordarshan/dd.jpg" alt="image description">
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
 </figure> 
@@ -856,7 +848,7 @@ We approached Doordarshan, the state broadcaster of India, for a talk show with 
               Mascot Competition
             </h1>
             <h2>
-              <figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+              <figure class=" grid grid-cols-2 relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/mascot-contest/img-20231012-wa0003.jpg" alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/mascot-contest/img-20231012-wa0007.jpg" alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/mascot-contest/whatsapp-image-2023-10-12-at-04-11-36.jpg  " alt="image description">
@@ -874,7 +866,7 @@ To make our project more appealing and people friendly, we organised a mascot co
             </h1>
             <h2>
 
- <figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+ <figure class=" grid grid-cols-2 relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/informative-posts/ch1pg1.png " alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/informative-posts/ch1pg2.jpg " alt="image description">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/informative-posts/screenshot-2023-10-12-112714.png " alt="image description">
@@ -891,7 +883,7 @@ To reach out to a wide audience, we created posts on multiple social media platf
             </h1>
             <h2> 
  
-<figure class="max-w-lg relative relative left-2/4 -translate-x-2/4 my-8">
+<figure class=" relative relative left-2/4 -translate-x-2/4 my-8">
   <img class="h-auto w-3/4" src="https://static.igem.wiki/teams/4829/wiki/awards/education/whealth-symposium/poster.png " alt="image description">
   <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Image caption</figcaption>
 </figure> 
@@ -925,7 +917,7 @@ On the International Day for action on Women’s health, we invited experts in t
             <h2>
               Along with our brochures on synthetic biology, we also created a comprehensive guide for Endometriosis. The title page had a Yellow Ribbon, often associated with Endometriosis awareness. It includes details about the symptoms, causes, available treatments and undergoing research in the field. It also includes excerpts from the interviews held during “Understanding Endometriosis”, and FAQs answered by experts in the field. 
 
-https://static.igem.wiki/teams/4829/wiki/awards/education/brochure-articles/endometriosis-final-brochure.pdf 
+
 
 <div @click = "() => {pdf('endo-dropdown')}" class = "mt-4 wireframe2 relative left-2/4 -translate-x-2/4">
         <span class = "text-4xl courierprime cursor-pointer">
@@ -971,9 +963,10 @@ export default {
     },
     watch:{
       synbio(newSynbio, oldSynbio){
-        scrollTo
+        console.log("text")
         let ssSyn = document.getElementsByClassName("ss-synbio")[0]
         let ssEndo = document.getElementsByClassName("ss-endo")[0]
+        console.log("text")
         if(newSynbio){
           ssSyn.style.display = "block"
           ssEndo.style.display = "none"
@@ -1000,7 +993,38 @@ export default {
       }
     },
     mounted(){
-     // this.$refs.abstractButton.addEventListener("click", ()=>{this.scrollTo("abstract")})
+     this.$refs.bcButton.addEventListener("click", ()=>{this.scrollTo("bc")})
+     this.$refs.nbdButton.addEventListener("click", ()=>{this.scrollTo("nbd")})
+     this.$refs.odButton.addEventListener("click", ()=>{this.scrollTo("od")})
+     this.$refs.carvButton.addEventListener("click", ()=>{this.scrollTo("carv")})
+     this.$refs.svButton.addEventListener("click", ()=>{this.scrollTo("sv")})
+     this.$refs.scButton.addEventListener("click", ()=>{this.scrollTo("sc")})
+     this.$refs.wsbButton.addEventListener("click", ()=>{this.scrollTo("wsb")})
+     this.$refs.ijButton.addEventListener("click", ()=>{this.scrollTo("ij")})
+     this.$refs.dleButton.addEventListener("click", ()=>{this.scrollTo("dle")})
+     this.$refs.rdlButton.addEventListener("click", ()=>{this.scrollTo("rdl")})
+     this.$refs.hrpButton.addEventListener("click", ()=>{this.scrollTo("hrp")})
+     this.$refs.quizButton.addEventListener("click", ()=>{this.scrollTo("quiz")})
+     this.$refs.verseButton.addEventListener("click", ()=>{this.scrollTo("verse")})
+     this.$refs.sympButton.addEventListener("click", ()=>{this.scrollTo("symp")})
+     this.$refs.wikiButton.addEventListener("click", ()=>{this.scrollTo("wiki")})
+     this.$refs.radioButton.addEventListener("click", ()=>{this.scrollTo("radio")})
+     this.$refs.brochButton.addEventListener("click", ()=>{this.scrollTo("broch")})
+     this.$refs.langButton.addEventListener("click", ()=>{this.scrollTo("lang")})
+     this.$refs.gameButton.addEventListener("click", ()=>{this.scrollTo("game")})
+     this.$refs.actiButton.addEventListener("click", ()=>{this.scrollTo("acti")})
+     this.$refs.inforButton.addEventListener("click", ()=>{this.scrollTo("infor")})
+     this.$refs.protButton.addEventListener("click", ()=>{this.scrollTo("prot")});
+
+    this.$refs.endoButton.addEventListener("click", ()=>{this.scrollTo("endo")})
+    this.$refs.interButton.addEventListener("click", ()=>{this.scrollTo("inter")})
+    this.$refs.mascButton.addEventListener("click", ()=>{this.scrollTo("masc")})
+    this.$refs.infpoButton.addEventListener("click", ()=>{this.scrollTo("infpo")})
+    this.$refs.wympButton.addEventListener("click", ()=>{this.scrollTo("wymp")})
+    this.$refs.collabButton.addEventListener("click", ()=>{this.scrollTo("collab")})
+    this.$refs.brochuButton.addEventListener("click", ()=>{this.scrollTo("brochu")})
+    
+
 
       //this.$refs.nameButton.addEventListener("click", ()=>{this.scrollTo("name")})
   

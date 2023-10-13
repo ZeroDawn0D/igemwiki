@@ -34,7 +34,7 @@
   font-family: courierprimebold;
 }
 
-
+/*
 mark{
   background-color: transparent;
   background-image: linear-gradient(to right,#c6bbff 50%,transparent 51%);
@@ -46,6 +46,13 @@ mark{
 }
 mark:hover{
   background-position: left;
+}*/
+
+
+mark{
+  background-color: #c6bbff;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 @layer base {
   h1 {

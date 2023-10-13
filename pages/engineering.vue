@@ -8,8 +8,8 @@
       </div>
     </div>
 
-    <section class="p-4">
-      <i>“Mistakes are a fact of life. It is the response to error that counts.”</i><br>
+    <section class="p-4 w-3/4 relative left-2/4 -translate-x-2/4">
+      <i><mark>“Mistakes are a fact of life. It is the response to error that counts.”</mark></i><br>
       <b>Nikki Giovanni</b>
       <br><br>
 
@@ -1491,7 +1491,27 @@ export default {
     },
   },
   mounted() {
-    // this.$refs.abstractButton.addEventListener("click", ()=>{this.scrollTo("abstract")})
+    this.$refs.transButton.addEventListener("click", ()=>{this.scrollTo("trans")})
+    this.$refs.peButton.addEventListener("click", ()=>{this.scrollTo("pe")})
+    this.$refs.oilButton.addEventListener("click", ()=>{this.scrollTo("oil")})
+    this.$refs.plasmButton.addEventListener("click", ()=>{this.scrollTo("plasm")})
+    this.$refs.pefaButton.addEventListener("click", ()=>{this.scrollTo("pefa")})
+    this.$refs.lnpButton.addEventListener("click", ()=>{this.scrollTo("lnp")})
+    this.$refs.spmcButton.addEventListener("click", ()=>{this.scrollTo("spmc")})
+    this.$refs.dabButton.addEventListener("click", ()=>{this.scrollTo("dab")})
+
+this.$refs.pkButton.addEventListener("click", ()=>{this.scrollTo("pk")})
+
+this.$refs.hadButton.addEventListener("click", ()=>{this.scrollTo("had")})
+
+this.$refs.pdButton.addEventListener("click", ()=>{this.scrollTo("pd")})
+
+this.$refs.bbButton.addEventListener("click", ()=>{this.scrollTo("bb")})
+
+this.$refs.teButton.addEventListener("click", ()=>{this.scrollTo("te")})
+
+
+
     //this.$refs.nameButton.addEventListener("click", ()=>{this.scrollTo("name")})
   },
 };

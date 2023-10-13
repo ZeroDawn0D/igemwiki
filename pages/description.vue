@@ -42,13 +42,13 @@
                     <div class = "class-comp1 cursor-pointer text-md" ref = "comp1Button" >mRNA</div>
                   </li>
                   <li>
-                    <div class = "class-comp1 cursor-pointer text-md" ref = "comp1Button" >LNPs</div>
+                    <div class = "class-comp2 cursor-pointer text-md" ref = "comp2Button" >LNPs</div>
                   </li>
                   <li>
-                    <div class = "class-comp1 cursor-pointer text-md" ref = "comp1Button" >Aptides</div>
+                    <div class = "class-comp3 cursor-pointer text-md" ref = "comp3Button" >Aptides</div>
                   </li>
                   <li>
-                    <div class = "class-comp1 cursor-pointer text-md" ref = "comp1Button" >O-IL8-15</div>
+                    <div class = "class-comp4 cursor-pointer text-md" ref = "comp4Button" >O-IL8-15</div>
                   </li>
                 </ul>
               </li>
@@ -181,7 +181,7 @@ Once synthesised, mRNA undergoes several modifications to ensure its stability a
 
               </h2>
             </section>
-            <section id = "comp1" ref = " comp1">
+            <section id = "comp2" ref = " comp2">
               <h3>
                 LNPs
               </h3>
@@ -191,7 +191,7 @@ Once synthesised, mRNA undergoes several modifications to ensure its stability a
                 [IMAGE]
               </h2>
             </section>
-            <section id = "comp1" ref = " comp1">
+            <section id = "comp3" ref = " comp3">
               <h3>
                 Aptides
               </h3>
@@ -209,7 +209,7 @@ The conjugation of aptides to lipids to form specific liposomes and LNPs has yie
 
               </h2>
             </section>
-            <section id = "comp1" ref = " comp1">
+            <section id = "comp4" ref = " comp4">
               <h3>
                 O-IL8-15
               </h3>
@@ -324,7 +324,22 @@ export default {
       }
     },
     mounted(){
-      //this.$refs.introButton.addEventListener("click", ()=>{this.scrollTo("intro");})
+      this.$refs.endoButton.addEventListener("click", ()=>{this.scrollTo("endo");})
+      this.$refs.curtButton.addEventListener("click", ()=>{this.scrollTo("curt");})
+      this.$refs.soluluButton.addEventListener("click", ()=>{this.scrollTo("solulu");})
+      this.$refs.inspiButton.addEventListener("click", ()=>{this.scrollTo("inspi");})
+      this.$refs.projButton.addEventListener("click", ()=>{this.scrollTo("proj");})
+      this.$refs.compButton.addEventListener("click", ()=>{this.scrollTo("comp");})
+      this.$refs.comp1Button.addEventListener("click", ()=>{this.scrollTo("comp1");})
+      this.$refs.comp2Button.addEventListener("click", ()=>{this.scrollTo("comp2");})
+      this.$refs.comp3Button.addEventListener("click", ()=>{this.scrollTo("comp3");})
+      this.$refs.comp4Button.addEventListener("click", ()=>{this.scrollTo("comp4");})
+      this.$refs.futButton.addEventListener("click", ()=>{this.scrollTo("fut");})
+      this.$refs.refButton.addEventListener("click", ()=>{this.scrollTo("ref");})
+      this.$refs.curtButton.addEventListener("click", ()=>{this.scrollTo("curt");})
+      
+
+
 
       //this.$refs.mrnaButton.addEventListener("click", ()=>{this.scrollTo("mrna")})
       
