@@ -195,9 +195,6 @@ watch(awards, async(newAward, oldAward) =>{
 		          <MenuItem v-slot="{ active }">
 		            <NuxtLink to="/safety" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Safety</NuxtLink>
 		          </MenuItem>
-		          <MenuItem v-slot="{ active }">
-		            		<NuxtLink to="/entrepreneurship" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Entrepreneurship</NuxtLink>
-		          		</MenuItem>
 		        </div>
 		      </MenuItems>
 		  </Menu>
@@ -209,13 +206,31 @@ watch(awards, async(newAward, oldAward) =>{
 		  	</button>
 		  </div>
 		-->
-		  <div class = "relative inline-block text-left  top-2/4 -translate-y-2/4">
-		  	<NuxtLink to="/human-practices">
-		  	<button class="inline-flex w-full justify-center gap-x-1.5 rounded-md  px-3 py-2 text-sm font-semibold text-gray-900 hover:text-violet-500">
-		  		Human Practices
-		  	</button>
-		  </NuxtLink>
-		  </div>
+		  <Menu as="div" class="relative inline-block text-left  top-2/4 -translate-y-2/4">
+		    <div>
+		    	<MenuButton class="inline-flex w-full justify-center gap-x-1.5 rounded-md  px-3 py-2 text-sm font-semibold text-gray-900 hover:text-violet-500">
+		        	Human Practices ▼
+		    	</MenuButton>
+		    </div>
+		      	<MenuItems class="absolute z-10 mt-2 w-40 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+		        	<div class="py-1">
+		        		<MenuItem v-slot="{ active }">
+		            		<NuxtLink to="/human-practices" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Human Practices</NuxtLink>
+		          		</MenuItem>
+
+		          		<MenuItem v-slot="{ active }">
+		            		<NuxtLink to="/inclusivity" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Inclusivity</NuxtLink>
+		          		</MenuItem>
+
+		          		<MenuItem v-slot="{ active }">
+		            		<NuxtLink to="/entrepreneurship" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Entrepreneurship</NuxtLink>
+		          		</MenuItem>
+
+		          		
+		        	</div>
+		      	</MenuItems>
+		  </Menu>
+
 
 		  <Menu as="div" class="relative inline-block text-left  top-2/4 -translate-y-2/4">
 		    <div>

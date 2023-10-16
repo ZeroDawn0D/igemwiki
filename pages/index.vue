@@ -127,10 +127,13 @@
           It carries genetic information from the DNA in the cell's nucleus to the ribosomes in the cytoplasm, where it serves as a template for protein synthesis. To make the mRNA we produce by IVT stable, improve its efficiency, and reduce its immunogenicity, we use modified nucleotides ~like N1-methyl pseudouridine~ and cap the mRNA with cap analogues.
         </div>
       </div>
+
       <div class = "aspect-square bg-white border-black border-4">
+        <img src = "mrna.png">
       </div>
 
       <div class = "aspect-square bg-white border-black border-4">
+      <img src = "lnp.png">
       </div>
 
       <div class = "col-span-2 bg-white border-black border-4 p-2">
@@ -153,11 +156,12 @@
         </div>
 
         <div class = "courierprime text-xl">
-          Aptides have gained attention in various biomedical applications, including targeted drug delivery, diagnostic imaging, and therapeutic interventions. Their unique properties make them a promising tool in developing precision medicine and personalised therapeutics.  The small size of the aptide makes it have excellent application in targeted drug delivery, especially as this means that it can be conjugated easily to lipids of LNPs.
+          Aptides have gained attention in various biomedical applications, including targeted drug delivery, diagnostic imaging, and therapeutic interventions. Their unique properties make them a promising tool in developing precision medicine and personalised therapeutics. The small size of the aptide makes it have excellent application in targeted drug delivery, especially as this means that it can be conjugated easily to lipids of LNPs.
         </div>
       </div>
 
       <div class  = "aspect-square bg-white border-black border-4">
+      <img src = "aptide.png">
       </div>
     </div>
   </div>

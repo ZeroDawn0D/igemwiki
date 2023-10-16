@@ -381,7 +381,21 @@ export default {
       }
     },
     mounted(){
-      //this.$refs.introButton.addEventListener("click", ()=>{this.scrollTo("intro");})
+      this.$refs.plasmidButton.addEventListener("click", ()=>{this.scrollTo("plasmid");})
+      this.$refs.transButton.addEventListener("click", ()=>{this.scrollTo("trans");})
+      this.$refs.proteinButton.addEventListener("click", ()=>{this.scrollTo("protein");})
+      this.$refs.ppButton.addEventListener("click", ()=>{this.scrollTo("pp");})
+      this.$refs.wbButton.addEventListener("click", ()=>{this.scrollTo("wb");})
+      this.$refs.ageButton.addEventListener("click", ()=>{this.scrollTo("age");})
+      this.$refs.sdsButton.addEventListener("click", ()=>{this.scrollTo("sds");})
+      this.$refs.ivtButton.addEventListener("click", ()=>{this.scrollTo("ivt");})
+      this.$refs.rgaButton.addEventListener("click", ()=>{this.scrollTo("rga");})
+      this.$refs.helaButton.addEventListener("click", ()=>{this.scrollTo("hela");})
+      this.$refs.lnpButton.addEventListener("click", ()=>{this.scrollTo("lnp");})
+      this.$refs.lmcButton.addEventListener("click", ()=>{this.scrollTo("lmc");})
+      this.$refs.acButton.addEventListener("click", ()=>{this.scrollTo("ac");})
+      this.$refs.gplButton.addEventListener("click", ()=>{this.scrollTo("gpl");})
+
 
       //this.$refs.mrnaButton.addEventListener("click", ()=>{this.scrollTo("mrna")})
       

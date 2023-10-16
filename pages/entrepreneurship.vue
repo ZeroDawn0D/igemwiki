@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div class = "min-h-fit">
     <div class = "">
       <div class = "courierprimebold h-64 w-screen text-black font-bold text-9xl max-md:text-6xl max-md:h-32">
         ENTREPRENEURSHIP
       </div>
     </div>
-    <iframe class = "w-screen" src = "https://static.igem.wiki/teams/4829/wiki/business2.pdf"></iframe>
+    <iframe class = "w-3/4 relative left-2/4 -translate-x-2/4 aspect-[9/16]" src = "https://static.igem.wiki/teams/4829/wiki/business2.pdf"></iframe>
   </div>
 </template>
 

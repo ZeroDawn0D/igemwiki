@@ -6,7 +6,34 @@
       </div>
     </div>
 
+<div class = "text-lg w-3/4 text-justify relative left-2/4 -translate-x-2/4" >
 
+  <div class = "text-6xl text-violet-500 courierprimebold">
+TIMELINE
+</div>
+
+  <div class = "text-4xl text-violet-500 courierprimebold">
+Dec-Jan: First Contact with Stakeholders
+</div>
+This is where we looked for problems in the society, talked to people in various walks of life, brainstorming ways to solve them. The main goal during this phase was to assess the feasibility of our ideas and find maximum possible plans to achieve them. 
+<br><br>
+  <div class = "text-4xl text-violet-500 courierprimebold">
+Jan-Mar: Carving out the details
+</div>
+This is where we approached professors and experts to refine our idea and laid out our fundamental goals. We also conducted various surveys to identify the best methodologies to make the project robust and closer to the people.  
+<br><br>
+  <div class = "text-4xl text-violet-500 courierprimebold">
+Apr–Aug: Implementing Plans 
+</div>
+Here, we conducted a majority of our human practices, outreach and lab activities. The plans we had made initially were tested in the face of reality, and often needed major changes which made us establish a second contact with the stakeholders. 
+<br><br>
+  <div class = "text-4xl text-violet-500 courierprimebold">
+Sep-Oct:
+</div>
+This was the phase filled with reflection and analysis. We tried to wrap up things for the cycle, and laid out plans for the future, all the while remaining connected to our fundamental goals. This was the time where our project matured from an idea to a reality based on the help and feedback of our
+
+<br><br>
+</div>
 
     
     <Scrollspy class = "ss-synbio" :currentPage="currentPage" initialSection="overv">

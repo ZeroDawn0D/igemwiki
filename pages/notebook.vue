@@ -28,24 +28,24 @@
                   </li>
                   <li>
                     <div
-                      class="class-may1 cursor-pointer text-md"
-                      ref="may1Button"
+                      class="class-may2 cursor-pointer text-md"
+                      ref="may2Button"
                     >
                       Week 2
                     </div>
                   </li>
                   <li>
                     <div
-                      class="class-may1 cursor-pointer text-md"
-                      ref="may1Button"
+                      class="class-may3 cursor-pointer text-md"
+                      ref="may3Button"
                     >
                       Week 3
                     </div>
                   </li>
                   <li>
                     <div
-                      class="class-may1 cursor-pointer text-md"
-                      ref="may1Button"
+                      class="class-may4 cursor-pointer text-md"
+                      ref="may4Button"
                     >
                       Week 4
                     </div>
@@ -71,24 +71,24 @@
                   </li>
                   <li>
                     <div
-                      class="class-june1 cursor-pointer text-md"
-                      ref="june1Button"
+                      class="class-june2 cursor-pointer text-md"
+                      ref="june2Button"
                     >
                       Week 2
                     </div>
                   </li>
                   <li>
                     <div
-                      class="class-june1 cursor-pointer text-md"
-                      ref="june1Button"
+                      class="class-june3 cursor-pointer text-md"
+                      ref="june3Button"
                     >
                       Week 3
                     </div>
                   </li>
                   <li>
                     <div
-                      class="class-june1 cursor-pointer text-md"
-                      ref="june1Button"
+                      class="class-june4 cursor-pointer text-md"
+                      ref="june4Button"
                     >
                       Week 4
                     </div>
@@ -114,24 +114,24 @@
                   </li>
                   <li>
                     <div
-                      class="class-july1 cursor-pointer text-md"
-                      ref="july1Button"
+                      class="class-july2 cursor-pointer text-md"
+                      ref="july2Button"
                     >
                       Week 2
                     </div>
                   </li>
                   <li>
                     <div
-                      class="class-july1 cursor-pointer text-md"
-                      ref="july1Button"
+                      class="class-july3 cursor-pointer text-md"
+                      ref="july3Button"
                     >
                       Week 3
                     </div>
                   </li>
                   <li>
                     <div
-                      class="class-july1 cursor-pointer text-md"
-                      ref="july1Button"
+                      class="class-july4 cursor-pointer text-md"
+                      ref="july4Button"
                     >
                       Week 4
                     </div>
@@ -157,24 +157,24 @@
                   </li>
                   <li>
                     <div
-                      class="class-august1 cursor-pointer text-md"
-                      ref="august1Button"
+                      class="class-august2 cursor-pointer text-md"
+                      ref="august2Button"
                     >
                       Week 2
                     </div>
                   </li>
                   <li>
                     <div
-                      class="class-august1 cursor-pointer text-md"
-                      ref="august1Button"
+                      class="class-august3 cursor-pointer text-md"
+                      ref="august3Button"
                     >
                       Week 3
                     </div>
                   </li>
                   <li>
                     <div
-                      class="class-august1 cursor-pointer text-md"
-                      ref="august1Button"
+                      class="class-august4 cursor-pointer text-md"
+                      ref="august4Button"
                     >
                       Week 4
                     </div>
@@ -200,28 +200,21 @@
                   </li>
                   <li>
                     <div
-                      class="class-september1 cursor-pointer text-md"
-                      ref="september1Button"
+                      class="class-september2 cursor-pointer text-md"
+                      ref="september2Button"
                     >
                       Week 2
                     </div>
                   </li>
                   <li>
                     <div
-                      class="class-september1 cursor-pointer text-md"
-                      ref="september1Button"
+                      class="class-september3 cursor-pointer text-md"
+                      ref="september3Button"
                     >
                       Week 3
                     </div>
                   </li>
-                  <li>
-                    <div
-                      class="class-september1 cursor-pointer text-md"
-                      ref="september1Button"
-                    >
-                      Week 4
-                    </div>
-                  </li>
+                  
                 </ul>
               </li>
 
@@ -243,8 +236,8 @@
                   </li>
                   <li>
                     <div
-                      class="class-october1 cursor-pointer text-md"
-                      ref="october1Button"
+                      class="class-october2 cursor-pointer text-md"
+                      ref="october2Button"
                     >
                       Week 2
                     </div>
@@ -304,7 +297,7 @@
                 of 6Y6C template.
               </h2>
             </section>
-            <section id="may1" ref=" may1" class="pb-2">
+            <section id="may2" ref=" may2" class="pb-2">
               <h3>Week 2</h3>
               <h2
                 class="bg-gray-300 border-l-4 border-gray-800 pl-1 pr-1 pb-1 pt-1"
@@ -315,7 +308,7 @@
                 concepts in pharmacokinetics.
               </h2>
             </section>
-            <section id="may1" ref=" may1" class="pb-2">
+            <section id="may3" ref=" may3" class="pb-2">
               <h3>Week 3</h3>
               <h2
                 class="bg-pink-300 border-l-4 border-pink-800 pl-1 pr-1 pb-1 pt-1"
@@ -342,7 +335,7 @@
                 Overgrowth, so reinoculated.
               </h2>
             </section>
-            <section id="may1" ref=" may1" class="pb-2">
+            <section id="may4" ref=" may4" class="pb-2">
               <h3>Week 4</h3>
               <h2
                 class="bg-gray-300 border-l-4 border-gray-800 pl-1 pr-1 pb-1 pt-1"
@@ -583,7 +576,7 @@
                 BL21 overgrowth, TG1 undergrowth, Transformation failed.
               </h2>
             </section>
-            <section id="june1" ref=" june1" class="pb-2">
+            <section id="june2" ref=" june2" class="pb-2">
               <h3>Week 2</h3>
               <h2
                 class="bg-gray-300 border-l-4 border-gray-800 pl-1 pr-1 pb-1 pt-1"
@@ -602,7 +595,7 @@
                 <br />
               </h2>
             </section>
-            <section id="june1" ref=" june1" class="pb-2">
+            <section id="june3" ref=" june3" class="pb-2">
               <h3>Week 3</h3>
               <h2
                 class="bg-pink-300 border-l-4 border-pink-800 pl-1 pr-1 pb-1 pt-1"
@@ -696,7 +689,7 @@
                 LNPs were discussed.
               </h2>
             </section>
-            <section id="june1" ref=" june1" class="pb-2">
+            <section id="june4" ref=" june4" class="pb-2">
               <h3>Week 4</h3>
               <h2
                 class="bg-gray-300 border-l-4 border-gray-800 pl-1 pr-1 pb-1 pt-1"
@@ -1280,7 +1273,7 @@
                 reasons for targeting IL-8 was completed.
               </h2>
             </section>
-            <section id="july1" ref=" july1" class="pb-2">
+            <section id="july2" ref=" july2" class="pb-2">
               <h3>Week 2</h3>
               <h2
                 class="bg-gray-300 border-l-4 border-gray-800 pl-1 pr-1 pb-1 pt-1"
@@ -1362,7 +1355,7 @@
                 Western Blot
               </h2>
             </section>
-            <section id="july1" ref=" july1" class="pb-2">
+            <section id="july3" ref=" july3" class="pb-2">
               <h3>Week 3</h3>
               <h2
                 class="bg-pink-300 border-l-4 border-pink-800 pl-1 pr-1 pb-1 pt-1"
@@ -1434,7 +1427,7 @@
                 of endometriosis were discussed.
               </h2>
             </section>
-            <section id="july1" ref=" july1" class="pb-2">
+            <section id="july4" ref=" july4" class="pb-2">
               <h3>Week 4</h3>
               <h2
                 class="bg-pink-300 border-l-4 border-pink-800 pl-1 pr-1 pb-1 pt-1"
@@ -1571,7 +1564,7 @@
                 optimization. Aptide and Fibronectin EDB docking was completed.
               </h2>
             </section>
-            <section id="august1" ref=" august1" class="pb-2">
+            <section id="august2" ref=" august2" class="pb-2">
               <h3>Week 2</h3>
               <h2
                 class="bg-gray-300 border-l-4 border-gray-800 pl-1 pr-1 pb-1 pt-1"
@@ -1659,7 +1652,7 @@
                 </ul>
               </h2>
             </section>
-            <section id="august1" ref=" august1" class="pb-2">
+            <section id="august3" ref=" august3" class="pb-2">
               <h3>Week 3</h3>
               <h2
                 class="bg-orange-300 border-l-4 border-orange-800 pl-1 pr-1 pb-1 pt-1"
@@ -1689,7 +1682,7 @@
                 IVT done CD36 and CD36 control, with satisfactory results.
               </h2>
             </section>
-            <section id="august1" ref=" august1" class="pb-2">
+            <section id="august4" ref=" august4" class="pb-2">
               <h3>Week 4</h3>
               <h2
                 class="bg-pink-300 border-l-4 border-pink-800 pl-1 pr-1 pb-1 pt-1"
@@ -1746,7 +1739,7 @@
                 </ul>
               </h2>
             </section>
-            <section id="september1" ref=" september1" class="pb-2">
+            <section id="september2" ref=" september2" class="pb-2">
               <h3>Week 2</h3>
               <h2
                 class="bg-purple-300 border-l-4 border-purple-800 pl-1 pr-1 pb-1 pt-1"
@@ -1770,7 +1763,7 @@
                 Primer Reconstruction at Dipshikha's Lab
               </h2>
             </section>
-            <section id="september1" ref=" september1" class="pb-2">
+            <section id="september3" ref=" september3" class="pb-2">
               <h3>Week 3</h3>
               <h2
                 class="bg-pink-300 border-l-4 border-pink-800 pl-1 pr-1 pb-1 pt-1"
@@ -1805,7 +1798,7 @@
                 detected post transfection
               </h2>
             </section>
-            <section id="october1" ref=" october1" class="pb-2">
+            <section id="october2" ref=" october2" class="pb-2">
               <h3>Week 2</h3>
               <h2
                 class="bg-purple-300 border-l-4 border-purple-800 pl-1 pr-1 pb-1 pt-1"
@@ -1854,7 +1847,36 @@ export default {
     },
   },
   mounted() {
-    //this.$refs.introButton.addEventListener("click", ()=>{this.scrollTo("intro");})
+    this.$refs.mayButton.addEventListener("click", ()=>{this.scrollTo("may");})
+    this.$refs.may1Button.addEventListener("click", ()=>{this.scrollTo("may1");})
+    this.$refs.may2Button.addEventListener("click", ()=>{this.scrollTo("may2");})
+    this.$refs.may3Button.addEventListener("click", ()=>{this.scrollTo("may3");})
+    this.$refs.may4Button.addEventListener("click", ()=>{this.scrollTo("may4");})
+    this.$refs.juneButton.addEventListener("click", ()=>{this.scrollTo("june");})
+    this.$refs.june1Button.addEventListener("click", ()=>{this.scrollTo("june1");})
+    this.$refs.june2Button.addEventListener("click", ()=>{this.scrollTo("june2");})
+    this.$refs.june3Button.addEventListener("click", ()=>{this.scrollTo("june3");})
+    this.$refs.june4Button.addEventListener("click", ()=>{this.scrollTo("june4");})
+    this.$refs.julyButton.addEventListener("click", ()=>{this.scrollTo("july");})
+    this.$refs.july1Button.addEventListener("click", ()=>{this.scrollTo("july1");})
+    this.$refs.july2Button.addEventListener("click", ()=>{this.scrollTo("july2");})
+    this.$refs.july3Button.addEventListener("click", ()=>{this.scrollTo("july3");})
+    this.$refs.july4Button.addEventListener("click", ()=>{this.scrollTo("july4");})
+    this.$refs.augustButton.addEventListener("click", ()=>{this.scrollTo("august");})
+    this.$refs.august1Button.addEventListener("click", ()=>{this.scrollTo("august1");})
+    this.$refs.august2Button.addEventListener("click", ()=>{this.scrollTo("august2");})
+    this.$refs.august3Button.addEventListener("click", ()=>{this.scrollTo("august3");})
+    this.$refs.august4Button.addEventListener("click", ()=>{this.scrollTo("august4");})
+    
+
+    this.$refs.septemberButton.addEventListener("click", ()=>{this.scrollTo("september");})
+    this.$refs.september1Button.addEventListener("click", ()=>{this.scrollTo("september1");})
+    this.$refs.september2Button.addEventListener("click", ()=>{this.scrollTo("september2");})
+    this.$refs.september3Button.addEventListener("click", ()=>{this.scrollTo("september3");})
+    this.$refs.octoberButton.addEventListener("click", ()=>{this.scrollTo("october");})
+    this.$refs.october1Button.addEventListener("click", ()=>{this.scrollTo("october1");})
+    this.$refs.october2Button.addEventListener("click", ()=>{this.scrollTo("october2");})
+    
     //this.$refs.mrnaButton.addEventListener("click", ()=>{this.scrollTo("mrna")})
     //this.$refs.mrna1Button.addEventListener("click", ()=>{this.scrollTo("mrna1")})
   },
